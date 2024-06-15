@@ -68,7 +68,6 @@ body {
 
 .stats div {
   flex: 1;
-  margin: 0 0.5rem;
   padding: 0.58rem;
   background-color: #fff;
   border-radius: 0.3rem;
@@ -85,3 +84,24 @@ body {
   font-size: 1rem;
   color: #6c757d;
 }
+
+.hero-image-container {
+  position: relative;
+  height: 700px; /* Adjust as needed */
+  border-radius: 10px;
+  background-color: #fcf3f3; /* Fallback color */
+}
+
+.hero-image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/positive-caucasian-girl-with-charming-smile-wears-GKMGX34@025x-1.png");
+  background-size: cover; /* Adjust as needed */
+  background-position: top; /* Adjust as needed */
+  z-index: 5; /* Ensure the background is behind content */
+}
+

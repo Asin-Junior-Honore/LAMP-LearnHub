@@ -23,15 +23,14 @@
                     <h3>940+</h3>
                     <p>Online users</p>
                 </div>
-                <div class="text-center">
+                <div class="text-center ml-3">
                     <h3>17K</h3>
                     <p>Active users</p>
                 </div>
             </div>
         </aside>
-        <aside class="col-md-6 text-center">
-            <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/positive-caucasian-girl-with-charming-smile-wears-GKMGX34@025x-1.png"
-                class="img-fluid" alt="Course Image">
+        <aside class="col-md-6 text-center hero-image-container">
+
         </aside>
     </div>
 </section>
