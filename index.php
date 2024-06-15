@@ -18,7 +18,7 @@
                 </ul>
             </div>
 
-            <div class="d-flex justify-content-between mt-4">
+            <div class="d-flex justify-content-between mt-4 stats">
                 <div class="text-center">
                     <h3>940+</h3>
                     <p>Online users</p>
