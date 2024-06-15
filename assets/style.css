@@ -31,3 +31,37 @@ body {
   color: black;
   margin: 0;
 }
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #6c757d;
+}
+
+.btn-primary {
+  background-color: #9080fc;
+  border-color: #9080fc;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #fff;
+  border-color: #6c757d;
+  color: rgb(10, 5, 5);
+}
+
+.btn-lg {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+}
+
+.list-inline-item {
+  margin-right: 0.5rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.3rem;
+}

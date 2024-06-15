@@ -12,7 +12,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
             <h2>LearnHub</h2>
             <!-- <img src="path/to/logo.png" width="30" height="30" alt="Logo"> -->
@@ -46,7 +46,7 @@
                     <a class="nav-link" href="#">Login</a>
                 </li>
                 <li class="nav-item signupbtn">
-                    <a class="nav-link" href="#">Sign Up</a>
+                    <a class="nav-link text-secondary" href="#">Sign Up</a>
                 </li>
             </ul>
         </div>
