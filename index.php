@@ -17,9 +17,21 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="d-flex justify-content-between mt-4">
+                <div class="text-center">
+                    <h3>940+</h3>
+                    <p>Online users</p>
+                </div>
+                <div class="text-center">
+                    <h3>17K</h3>
+                    <p>Active users</p>
+                </div>
+            </div>
         </aside>
         <aside class="col-md-6 text-center">
-            <img src="path/to/your/image.jpg" class="img-fluid" alt="Course Image">
+            <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/positive-caucasian-girl-with-charming-smile-wears-GKMGX34@025x-1.png"
+                class="img-fluid" alt="Course Image">
         </aside>
     </div>
 </section>

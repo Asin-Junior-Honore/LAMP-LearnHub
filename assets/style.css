@@ -65,3 +65,28 @@ body {
   height: auto;
   border-radius: 0.3rem;
 }
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.stats div {
+  flex: 1;
+  margin: 0 0.5rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.stats h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.stats p {
+  font-size: 1rem;
+  color: #6c757d;
+}
