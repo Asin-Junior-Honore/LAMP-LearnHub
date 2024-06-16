@@ -283,3 +283,92 @@ h3,
   height: auto;
   border-radius: 0.5rem;
 }
+.manimg {
+  background-color: #d1cbf4;
+  border: 2px solid red;
+}
+.w-100 {
+  width: 100%;
+}
+
+/* Section-6 Styles */
+.section-6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+
+.section-6 aside {
+  flex: 1;
+  padding: 1rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.feature-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-box:hover {
+  transform: translateY(-10px);
+}
+
+.feature-box .icon {
+  font-size: 3rem;
+  color: #5e72e4;
+  margin-bottom: 1rem;
+}
+
+.feature-box h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.feature-box p {
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+}
+
+.features-grid .mt-5 {
+  margin-top: 3rem;
+}
+
+.features-grid .btn-primary {
+  display: block;
+  width: 100%;
+}
+
+.description h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.description p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.description img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}

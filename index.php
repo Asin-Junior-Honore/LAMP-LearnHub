@@ -180,16 +180,64 @@
                 </span>
             </div>
             <div class="mt-5">
-                <li class="list-inline-item">
-                    <a class="btn btn-primary btn-lg" href="#">All features</a>
+                <li class="list-inline-item w-100">
+                    <a class="btn btn-primary btn-lg " href="#">All features</a>
                 </li>
             </div>
         </aside>
-        <img src="" alt="">
-        <aside>
+
+        <aside class="manimg ml-5">
+            <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/cheerful-bearded-senior-european-man-smiles-gladfu-BSUDYSL-1.png"
+                alt="">
         </aside>
     </section>
 
+    <section class="section-6">
+        <aside>
+            <div class="features-grid">
+                <div class="feature-box">
+                    <span class="icon">icon</span>
+                    <h3>Expert Tutor</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum tortor aliquam nisl.</p>
+                </div>
+                <div class="feature-box">
+                    <span class="icon">icon</span>
+                    <h3>Lifetime Access</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum tortor aliquam nisl.</p>
+                </div>
+                <div class="feature-box">
+                    <span class="icon">icon</span>
+                    <h3>Weekly Event</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum tortor aliquam nisl.</p>
+                </div>
+                <div class="feature-box">
+                    <span class="icon">icon</span>
+                    <h3>Updated Material</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum tortor aliquam nisl.</p>
+                </div>
+            </div>
+            <div class="mt-5">
+                <li class="list-inline-item w-100">
+                    <a class="btn btn-primary btn-lg" href="#">Get Started</a>
+                </li>
+            </div>
+        </aside>
+
+        <aside class="description">
+            <div>
+                <h2>Making Your Learning More Enjoyable</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
+                    turpis
+                    vitae maximus bibendum. Mauris aliquam sapien eget ipsum dictum, eget euismod nisl consequat.
+                    Maecenas
+                    mattis, dui condimentum aliquet eleifend, enim nulla pharetra nunc.</p>
+            </div>
+            <div>
+                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/horizontal-shot-of-pleasant-looking-cheerful-europ-H6BTHYD-1.png"
+                    alt="">
+            </div>
+        </aside>
+    </section>
 
 </main>
 
