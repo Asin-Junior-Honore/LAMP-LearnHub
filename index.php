@@ -145,7 +145,17 @@
                     </div>
                 </div>
             </div>
+
+            <div class="text-center mt-5">
+                <li class="list-inline-item">
+                    <a class="btn btn-primary btn-lg" href="#"> Browse All</a>
+                </li>
+            </div>
         </div>
+    </section>
+
+    <section class="section-5">
+
     </section>
 
 </main>

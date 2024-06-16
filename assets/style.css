@@ -125,7 +125,7 @@ h3,
   background-image: url("https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/positive-caucasian-girl-with-charming-smile-wears-GKMGX34@025x-1.png");
   background-size: cover;
   background-position: top;
-  z-index: -1;
+  z-index: 3;
 }
 
 .section-2 {
