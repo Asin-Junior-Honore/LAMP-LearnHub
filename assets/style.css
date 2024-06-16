@@ -211,3 +211,75 @@ h3,
 .allborder {
   border: 2px solid red;
 }
+
+/* Section-5 Styles */
+.section-5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 0;
+  border-radius: 0.5rem;
+}
+
+.section-5 aside {
+  flex: 1;
+}
+
+.section-5 .intro-text {
+  margin-bottom: 2rem;
+}
+
+.section-5 h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.section-5 p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.section-5 .features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.section-5 .features span {
+  flex: 1;
+  min-width: 200px;
+  background-color: #d1cbf4;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.section-5 .features span:hover {
+  transform: translateY(-10px);
+}
+
+.section-5 .features h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.section-5 .features p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.section-5 .mt-5 {
+  margin-top: 3rem;
+}
+
+.section-5 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}

@@ -155,8 +155,41 @@
     </section>
 
     <section class="section-5">
-
+        <aside>
+            <div class="intro-text">
+                <h2>Experience Interactive Learning</h2>
+                <p>Ut eget mattis lacus, sit amet accumsan erat. Integer suscipit justo vel iaculis scelerisque. Nam vel
+                    porta augue. Proin egestas leo magna, vel tincidunt magna laoreet eu.</p>
+            </div>
+            <div class="features">
+                <span>
+                    <h3>Easiest</h3>
+                    <p>Ut eget mattis lacus, sit amet accumsan erat.</p>
+                </span>
+                <span>
+                    <h3>Verified</h3>
+                    <p>Ut eget mattis lacus, sit amet accumsan erat.</p>
+                </span>
+                <span>
+                    <h3>Trusted</h3>
+                    <p>Ut eget mattis lacus, sit amet accumsan erat.</p>
+                </span>
+                <span>
+                    <h3>Powerful</h3>
+                    <p>Ut eget mattis lacus, sit amet accumsan erat.</p>
+                </span>
+            </div>
+            <div class="mt-5">
+                <li class="list-inline-item">
+                    <a class="btn btn-primary btn-lg" href="#">All features</a>
+                </li>
+            </div>
+        </aside>
+        <img src="" alt="">
+        <aside>
+        </aside>
     </section>
+
 
 </main>
 
