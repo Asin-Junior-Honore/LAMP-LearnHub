@@ -108,7 +108,7 @@
         </div>
     </section>
 
-    <section class="section-4 py-5">
+    <section class="section-4 mt-5 py-5">
         <div class="text-center mb-5">
             <h2>Browse By Category</h2>
             <p>Integer suscipit justo vel iaculis scelerisque. Nam vel porta augue. Proin egestas leo magna, vel <br />
@@ -126,21 +126,21 @@
                 <div class="col-md-3 mb-4">
                     <div class="category-box text-center p-4">
                         <span class=" mb-3">icon</span>
-                        <h3>Writing</h3>
+                        <h3>Design</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div class="col-md-3 mb-4">
                     <div class="category-box text-center p-4">
                         <span class="mb-3">icon</span>
-                        <h3>Writing</h3>
+                        <h3>Website</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div class="col-md-3 mb-4">
                     <div class="category-box text-center p-4">
                         <span class=" mb-3">icon</span>
-                        <h3>Writing</h3>
+                        <h3>Business</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
