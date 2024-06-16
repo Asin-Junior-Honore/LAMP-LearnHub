@@ -25,6 +25,7 @@ body {
 
 .navbar-nav .nav-link {
   color: black !important;
+  margin-inline: 10px;
 }
 
 .navbar-brand h2 {
@@ -65,6 +66,10 @@ body {
   height: auto;
   border-radius: 0.3rem;
 }
+.stats {
+  top: 80px;
+  position: relative;
+}
 
 .stats div {
   flex: 1;
@@ -87,9 +92,8 @@ body {
 
 .hero-image-container {
   position: relative;
-  height: 700px; /* Adjust as needed */
+  height: 700px;
   border-radius: 10px;
-  background-color: #fcf3f3; /* Fallback color */
 }
 
 .hero-image-container::before {
@@ -104,4 +108,3 @@ body {
   background-position: top; /* Adjust as needed */
   z-index: 5; /* Ensure the background is behind content */
 }
-
