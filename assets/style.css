@@ -93,10 +93,22 @@ body {
   color: #6c757d;
 }
 
-.hero-image-container,
-.hero-image-container2 {
+.hero-image-container {
   position: relative;
   height: 700px;
+}
+.hero-section {
+  position: relative;
+}
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #d1cbf4;
 }
 
 .hero-image-container::before {
@@ -111,23 +123,98 @@ body {
   background-position: top;
   z-index: -1;
 }
-
-.hero-image-container2::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/studio-shot-of-cute-thankful-clever-student-feels-RP65PDL-1.png");
-  background-size: cover;
-  background-position: top;
-  z-index: -1;
+.section-2 {
+  background-color: #d1cbf4;
+  border-radius: 15px;
 }
 
-@media (max-width: 768px) {
-  .hero-image-container,
-  .hero-image-container2 {
-    height: 400px;
-  }
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+p.lead {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+h3.h4 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.btn-primary {
+  background-color: #5e72e4;
+  border-color: #5e72e4;
+}
+
+.badge-primary {
+  background-color: #5e72e4;
+  padding: 0.75rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.mr-3 {
+  margin-right: 1rem;
+}
+
+section.container.py-5.section-3 {
+  display: flex;
+}
+.section-3 h2 {
+  font-size: 44px;
+}
+
+.allborder {
+  border: 2px solid red;
+}
+
+.section-4 h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.section-4 p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.category-box {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.category-box:hover {
+  transform: translateY(-10px);
+}
+
+.category-box .icon {
+  font-size: 3rem;
+  color: #5e72e4;
+}
+
+.category-box h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #333;
+  margin: 1rem 0;
+}
+
+.category-box p {
+  font-size: 1rem;
+  color: #666;
 }
