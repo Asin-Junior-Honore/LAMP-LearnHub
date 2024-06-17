@@ -326,7 +326,6 @@ h3,
 }
 
 .feature-box .icon {
-  font-size: 3rem;
   color: #5e72e4;
   margin-bottom: 1rem;
 }
@@ -372,3 +371,20 @@ h3,
   height: auto;
   border-radius: 0.5rem;
 }
+.ladyimg {
+  height: 250px;
+  position: relative;
+  width: 250px;
+}
+
+.ladyimg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #d1cbf4;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+

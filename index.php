@@ -232,11 +232,92 @@
                     Maecenas
                     mattis, dui condimentum aliquet eleifend, enim nulla pharetra nunc.</p>
             </div>
-            <div>
+            <div class="ladyimg">
                 <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/horizontal-shot-of-pleasant-looking-cheerful-europ-H6BTHYD-1.png"
-                    alt="">
+                    alt="" class="w-100 h-100">
             </div>
         </aside>
+    </section>
+
+    <section class="section-7">
+        <div>
+            <h2>Explore Our Courses</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum turpis
+                vitae maximus bibendum.</p>
+
+            <div class="mt-5">
+                <li class="list-inline-item w-100">
+                    <a class="btn btn-primary btn-lg" href="#">See All Courses</a>
+                </li>
+            </div>
+        </div>
+        <div class="couses">
+
+            <aside>
+                <div>
+                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/website-designer-EH7YWVE-1024x683.jpg"
+                        alt="">
+                </div>
+                <span class="">
+                    <li class="list-inline-item">
+                        <a class="btn btn-primary" href="#">Graphics</a>
+                        <a class="btn btn-primary " href="#">Design</a>
+                    </li>
+                    <p>$25/ course</p>
+                </span>
+                <h2>How to become a good designer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
+                    turpis vitae maximus.</p>
+            </aside>
+            <aside>
+                <div>
+                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/website-designer-EH7YWVE-1024x683.jpg"
+                        alt="">
+                </div>
+                <span class="">
+                    <li class="list-inline-item">
+                        <a class="btn btn-primary" href="#">Graphics</a>
+                        <a class="btn btn-primary " href="#">Design</a>
+                    </li>
+                    <p>$25/ course</p>
+                </span>
+                <h2>How to become a good designer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
+                    turpis vitae maximus.</p>
+            </aside>
+            <aside>
+                <div>
+                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/website-designer-EH7YWVE-1024x683.jpg"
+                        alt="">
+                </div>
+                <span class="">
+                    <li class="list-inline-item">
+                        <a class="btn btn-primary" href="#">Graphics</a>
+                        <a class="btn btn-primary " href="#">Design</a>
+                    </li>
+                    <p>$25/ course</p>
+                </span>
+                <h2>How to become a good designer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
+                    turpis vitae maximus.</p>
+            </aside>
+            <aside>
+                <div>
+                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/website-designer-EH7YWVE-1024x683.jpg"
+                        alt="">
+                </div>
+                <span class="">
+                    <li class="list-inline-item">
+                        <a class="btn btn-primary" href="#">Graphics</a>
+                        <a class="btn btn-primary " href="#">Design</a>
+                    </li>
+                    <p>$25/ course</p>
+                </span>
+                <h2>How to become a good designer</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
+                    turpis vitae maximus.</p>
+            </aside>
+        </div>
     </section>
 
 </main>
