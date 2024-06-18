@@ -255,7 +255,7 @@
         <div class="courses">
             <aside>
                 <div class="courseimgdiv">
-                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/website-designer-EH7YWVE-1024x683.jpg"
+                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/process-of-writing-calligraphy-writer-TFPYERL-800x533.jpg"
                         alt="">
                 </div>
                 <span class="">
@@ -271,7 +271,7 @@
             </aside>
             <aside>
                 <div class="courseimgdiv">
-                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/website-designer-EH7YWVE-1024x683.jpg"
+                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/girl-playing-singer-5GNLZJU-800x533.jpg"
                         alt="">
                 </div>
                 <span class="">
@@ -281,7 +281,7 @@
                     </li>
                     <p>$25/ course</p>
                 </span>
-                <h2>How to become a good designer</h2>
+                <h2>Let's learn about copywriting</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
                     turpis vitae maximus.</p>
             </aside>
@@ -297,13 +297,13 @@
                     </li>
                     <p>$25/ course</p>
                 </span>
-                <h2>How to become a good designer</h2>
+                <h2>Learn how to write a song</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
                     turpis vitae maximus.</p>
             </aside>
             <aside>
                 <div class="courseimgdiv">
-                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/website-designer-EH7YWVE-1024x683.jpg"
+                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/image-of-programmer-man-wearing-eyeglasses-working-RP2YDGV-800x533.jpg"
                         alt="">
                 </div>
                 <span class="">
@@ -313,7 +313,7 @@
                     </li>
                     <p>$25/ course</p>
                 </span>
-                <h2>How to become a good designer</h2>
+                <h2>Learn about Android Coding</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
                     turpis vitae maximus.</p>
             </aside>
