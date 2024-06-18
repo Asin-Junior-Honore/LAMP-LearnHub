@@ -455,8 +455,8 @@ h3,
 
 .courses aside span {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: baseline;
   margin-bottom: 10px;
 }
 /* .courseimgdiv {

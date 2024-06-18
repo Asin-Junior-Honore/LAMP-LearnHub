@@ -260,12 +260,12 @@
                 </div>
                 <span class="">
                     <li class="list-inline-item">
-                        <a class="btn btn-primary" href="#">Graphics</a>
-                        <a class="btn btn-primary" href="#">Design</a>
+                        <a class="btn btn-primary" href="#">Copy</a>
+                        <a class="btn btn-primary" href="#">Writing</a>
                     </li>
-                    <p>$25/ course</p>
+                    <p><b>$25/ </b> course</p>
                 </span>
-                <h2>How to become a good designer</h2>
+                <h2>Let's learn about copywriting</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
                     turpis vitae maximus.</p>
             </aside>
@@ -279,9 +279,9 @@
                         <a class="btn btn-primary" href="#">Graphics</a>
                         <a class="btn btn-primary" href="#">Design</a>
                     </li>
-                    <p>$25/ course</p>
+                    <p><b>$25/ </b> course</p>
                 </span>
-                <h2>Let's learn about copywriting</h2>
+                <h2>Learn how to write a song</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
                     turpis vitae maximus.</p>
             </aside>
@@ -295,9 +295,10 @@
                         <a class="btn btn-primary" href="#">Graphics</a>
                         <a class="btn btn-primary" href="#">Design</a>
                     </li>
-                    <p>$25/ course</p>
+                    <p><b>$25/ </b> course</p>
                 </span>
-                <h2>Learn how to write a song</h2>
+                <h2>How to become a good designer</h2>
+
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
                     turpis vitae maximus.</p>
             </aside>
@@ -308,10 +309,10 @@
                 </div>
                 <span class="">
                     <li class="list-inline-item">
-                        <a class="btn btn-primary" href="#">Graphics</a>
-                        <a class="btn btn-primary" href="#">Design</a>
+                        <a class="btn btn-primary" href="#">UI/UX</a>
+                        <a class="btn btn-primary" href="#">Coding</a>
                     </li>
-                    <p>$25/ course</p>
+                    <p><b>$25/ </b> course</p>
                 </span>
                 <h2>Learn about Android Coding</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
@@ -320,6 +321,21 @@
         </div>
     </section>
 
+    <section class="section-8">
+        <div>
+            <h2>
+                Meet Our Mentors
+            </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum turpis
+                vitae maximus bibendum.
+            </p>
+            <div class="mt-5">
+                <li class="list-inline-item w-100">
+                    <a class="btn btn-primary btn-lg" href="#">See All Courses</a>
+                </li>
+            </div>
+        </div>
+    </section>
 
 
 </main>
