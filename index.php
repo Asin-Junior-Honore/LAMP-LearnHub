@@ -239,6 +239,7 @@
         </aside>
     </section>
 
+
     <section class="section-7">
         <div>
             <h2>Explore Our Courses</h2>
@@ -251,17 +252,16 @@
                 </li>
             </div>
         </div>
-        <div class="couses">
-
+        <div class="courses">
             <aside>
-                <div>
+                <div class="courseimgdiv">
                     <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/website-designer-EH7YWVE-1024x683.jpg"
                         alt="">
                 </div>
                 <span class="">
                     <li class="list-inline-item">
                         <a class="btn btn-primary" href="#">Graphics</a>
-                        <a class="btn btn-primary " href="#">Design</a>
+                        <a class="btn btn-primary" href="#">Design</a>
                     </li>
                     <p>$25/ course</p>
                 </span>
@@ -270,14 +270,14 @@
                     turpis vitae maximus.</p>
             </aside>
             <aside>
-                <div>
+                <div class="courseimgdiv">
                     <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/website-designer-EH7YWVE-1024x683.jpg"
                         alt="">
                 </div>
                 <span class="">
                     <li class="list-inline-item">
                         <a class="btn btn-primary" href="#">Graphics</a>
-                        <a class="btn btn-primary " href="#">Design</a>
+                        <a class="btn btn-primary" href="#">Design</a>
                     </li>
                     <p>$25/ course</p>
                 </span>
@@ -286,14 +286,14 @@
                     turpis vitae maximus.</p>
             </aside>
             <aside>
-                <div>
+                <div class="courseimgdiv">
                     <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/website-designer-EH7YWVE-1024x683.jpg"
                         alt="">
                 </div>
                 <span class="">
                     <li class="list-inline-item">
                         <a class="btn btn-primary" href="#">Graphics</a>
-                        <a class="btn btn-primary " href="#">Design</a>
+                        <a class="btn btn-primary" href="#">Design</a>
                     </li>
                     <p>$25/ course</p>
                 </span>
@@ -302,14 +302,14 @@
                     turpis vitae maximus.</p>
             </aside>
             <aside>
-                <div>
+                <div class="courseimgdiv">
                     <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/website-designer-EH7YWVE-1024x683.jpg"
                         alt="">
                 </div>
                 <span class="">
                     <li class="list-inline-item">
                         <a class="btn btn-primary" href="#">Graphics</a>
-                        <a class="btn btn-primary " href="#">Design</a>
+                        <a class="btn btn-primary" href="#">Design</a>
                     </li>
                     <p>$25/ course</p>
                 </span>
@@ -319,6 +319,8 @@
             </aside>
         </div>
     </section>
+
+
 
 </main>
 
