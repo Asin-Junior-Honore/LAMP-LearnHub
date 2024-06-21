@@ -321,18 +321,60 @@
         </div>
     </section>
 
-    <section class="section-8">
-        <div>
-            <h2>
-                Meet Our Mentors
-            </h2>
+    <section class="section-8 text-center py-5">
+        <div class="container">
+            <h2>Meet Our Mentors</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum turpis
-                vitae maximus bibendum.
-            </p>
+                vitae maximus bibendum.</p>
             <div class="mt-5">
-                <li class="list-inline-item w-100">
-                    <a class="btn btn-primary btn-lg" href="#">See All Courses</a>
-                </li>
+                <a class="btn btn-primary btn-lg" href="#">View More</a>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card h-100">
+                        <img class="card-img-top"
+                            src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png"
+                            alt="Stan McGyver">
+                        <div class="card-body">
+                            <h3 class="card-title">Stan McGyver</h3>
+                            <small class="text-muted">Mentor</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card h-100">
+                        <img class="card-img-top"
+                            src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png"
+                            alt="Stan McGyver">
+                        <div class="card-body">
+                            <h3 class="card-title">Stan McGyver</h3>
+                            <small class="text-muted">Mentor</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card h-100">
+                        <img class="card-img-top"
+                            src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png"
+                            alt="Stan McGyver">
+                        <div class="card-body">
+                            <h3 class="card-title">Stan McGyver</h3>
+                            <small class="text-muted">Mentor</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card h-100">
+                        <img class="card-img-top"
+                            src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png"
+                            alt="Stan McGyver">
+                        <div class="card-body">
+                            <h3 class="card-title">Stan McGyver</h3>
+                            <small class="text-muted">Mentor</small>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
