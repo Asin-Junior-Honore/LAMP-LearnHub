@@ -334,7 +334,6 @@
                 </li>
             </div>
         </div>
-
         <div class="d-flex justify-content-between mt-5 gap-3">
             <div class="mentor-details text-center">
                 <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png"
