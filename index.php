@@ -327,8 +327,7 @@
                 Meet Our Mentors
             </h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum turpis
-                vitae maximus bibendum.
-            </p>
+                vitae maximus bibendum.</p>
             <div class="mt-5">
                 <li class="list-inline-item w-100">
                     <a class="btn btn-primary btn-lg" href="#">View More</a>
