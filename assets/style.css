@@ -207,10 +207,10 @@ h3,
   color: #6c757d;
 }
 
-/* Utility Styles */
-.allborder {
+Utility Styles
+/* .allborder {
   border: 2px solid red;
-}
+} */
 
 /* Section-5 Styles */
 .section-5 {
@@ -388,9 +388,11 @@ h3,
   z-index: -1;
 }
 
-.section-7 {
+.section-7,
+.section-8 {
   padding: 20px;
   text-align: center;
+  /* border: 2px solid red; */
 }
 
 .section-7 h2 {
@@ -459,7 +461,14 @@ h3,
   align-items: baseline;
   margin-bottom: 10px;
 }
-/* .courseimgdiv {
-  width: 300px;
-  height: 300px;
-} */
+.mentor-details {
+  border: 1px solid #9080fc;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.mentor-details img {
+  width: 230px;
+  background-color: #d1cbf4;
+  border-radius: 10px;
+}

@@ -321,7 +321,7 @@
         </div>
     </section>
 
-    <section class="section-8">
+    <section class="section-8 mt-5">
         <div>
             <h2>
                 Meet Our Mentors
@@ -331,10 +331,44 @@
             </p>
             <div class="mt-5">
                 <li class="list-inline-item w-100">
-                    <a class="btn btn-primary btn-lg" href="#">See All Courses</a>
+                    <a class="btn btn-primary btn-lg" href="#">View More</a>
                 </li>
             </div>
         </div>
+
+        <div class="d-flex justify-content-between mt-5 gap-3">
+            <div class="mentor-details text-center">
+                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png"
+                    alt=" ">
+                <h3 class="mentor-name my-2">Stan McGyver
+                </h3>
+                <small>Mentor</small>
+            </div>
+            <div class="mentor-details text-center">
+                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png"
+                    alt=" ">
+                <h3 class="mentor-name my-2">Stan McGyver
+                </h3>
+                <small>Mentor</small>
+            </div>
+            <div class="mentor-details text-center">
+                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png"
+                    alt=" ">
+                <h3 class="mentor-name my-2">Stan McGyver
+                </h3>
+                <small>Mentor</small>
+            </div>
+            <div class="mentor-details text-center">
+                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png"
+                    alt=" ">
+                <h3 class="mentor-name my-2">Stan McGyver
+                </h3>
+                <small>Mentor</small>
+            </div>
+
+        </div>
+
+
     </section>
 
 
