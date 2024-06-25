@@ -372,7 +372,8 @@
         <div class="text-center p-5">
             <h2>Ready to start learning? Contact us!
             </h2>
-            <p class="my-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt  <br/> velit. Donec
+            <p class="my-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt <br /> velit.
+                Donec
                 bibendum
                 turpis.</p>
             <div class="ml-auto text-center">
@@ -389,8 +390,6 @@
         </div>
 
     </secttion>
-
-
 </main>
 
 <?php include 'includes/footer.php'; ?>
