@@ -478,5 +478,23 @@ Utility Styles
 .text-center.p-5 {
   background-color: #d1cbf4;
   border-radius: 10px;
-  margin-top: 5rem;
+  margin-block: 5rem;
+}
+
+footer a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer .social-icons {
+  margin: 20px 0;
+}
+
+footer .social-icons a {
+  margin: 0 10px;
+  font-size: 1.5rem;
 }
