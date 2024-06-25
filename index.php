@@ -154,7 +154,7 @@
         </div>
     </section>
 
-    <section class="section-5">
+    <section class="section-5 d-flex">
         <aside>
             <div class="intro-text">
                 <h2>Experience Interactive Learning</h2>
@@ -191,6 +191,7 @@
                 alt="">
         </aside>
     </section>
+
 
     <section class="section-6">
         <aside>
@@ -240,7 +241,7 @@
     </section>
 
 
-    <section class="section-7">
+    <section class="section-7 p-0">
         <div>
             <h2>Explore Our Courses</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum turpis
@@ -321,7 +322,7 @@
         </div>
     </section>
 
-    <section class="section-8 mt-5">
+    <section class="section-8 mt-5 p-0">
         <div>
             <h2>
                 Meet Our Mentors
@@ -366,6 +367,28 @@
 
         </div>
     </section>
+
+    <secttion class="section-9 learn-withus">
+        <div class="text-center p-5">
+            <h2>Ready to start learning? Contact us!
+            </h2>
+            <p class="my-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt  <br/> velit. Donec
+                bibendum
+                turpis.</p>
+            <div class="ml-auto text-center">
+                <ul class="navbar-nav justify-content-center flex-row align-items-center">
+                    <li class="nav-item signupbtn">
+                        <a class="nav-link text-secondary" href="#">Sign Up</a>
+                    </li>
+                    <li class="nav-item signupbtn ml-5">
+                        <a class="nav-link text-secondary" href="#">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </secttion>
 
 
 </main>

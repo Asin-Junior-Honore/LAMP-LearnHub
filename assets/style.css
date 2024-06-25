@@ -211,7 +211,6 @@ Utility Styles
 /* .allborder {
   border: 2px solid red;
 } */
-
 /* Section-5 Styles */
 .section-5 {
   display: flex;
@@ -279,14 +278,16 @@ Utility Styles
 }
 
 .section-5 img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 0.5rem;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
 }
 .manimg {
+  border-radius: 10px;
   background-color: #d1cbf4;
-  /* border: 2px solid red; */
+  height: 660px;
 }
+
 .w-100 {
   width: 100%;
 }
@@ -363,7 +364,7 @@ Utility Styles
 .description p {
   font-size: 1.1rem;
   color: #666;
-  margin-bottom: 2rem;
+  margin-block: 2rem;
 }
 
 .description img {
@@ -389,10 +390,11 @@ Utility Styles
 }
 
 .section-7,
-.section-8 {
+.section-8,
+.section-9 {
   padding: 20px;
-  text-align: center;
-  /* border: 2px solid red; */
+  /* text-align: center;
+  border: 2px solid red; */
 }
 
 .section-7 h2 {
@@ -471,4 +473,10 @@ Utility Styles
   width: 230px;
   background-color: #d1cbf4;
   border-radius: 10px;
+}
+
+.text-center.p-5 {
+  background-color: #d1cbf4;
+  border-radius: 10px;
+  margin-top: 5rem;
 }
