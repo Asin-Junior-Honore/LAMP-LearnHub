@@ -97,7 +97,6 @@ h3,
 .hero-section {
   position: relative;
   background-color: #d1cbf4;
-  border-radius: 15px;
 }
 
 .hero-section::before {
