@@ -8,7 +8,7 @@
     <title>Home |🧑‍💻</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="../assets/style.css">
 </head>
 
 <body>
@@ -24,17 +24,16 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home</a>
+                    <a class="nav-link" href="../index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="views/about.php">About</a>
+                    <a class="nav-link" href="about.php">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="views/courses.php">Courses</a>
+                    <a class="nav-link" href="courses.php">Courses</a>
                 </li>
-
                 <li class="nav-item">
-                    <a class="nav-link" href="views/contact.php">Contact</a>
+                    <a class="nav-link" href="contact.php">Contact</a>
                 </li>
             </ul>
         </div>
@@ -49,6 +48,11 @@
             </ul>
         </div>
     </nav>
+
+    <div class="content">
+        <h1>Our Courses</h1>
+        <p>Details about the courses offered.</p>
+    </div>
 </body>
 
 </html>
