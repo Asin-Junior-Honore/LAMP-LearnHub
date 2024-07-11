@@ -1,0 +1,22 @@
+
+
+.contact-1 {
+    position: relative;
+    background-color: #d1cbf4;
+    height: 25rem;
+  }
+  
+  .contact-1::before {
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/happy-group-of-young-students-studying-together-6Y7CSKY.jpg");
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+  }
+  
