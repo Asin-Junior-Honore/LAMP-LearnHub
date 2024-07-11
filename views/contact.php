@@ -43,10 +43,10 @@
         <div class="ml-auto">
             <ul class="navbar-nav  align-items-center">
                 <li class="nav-item login">
-                    <a class="nav-link" href="#">Login</a>
+                    <a class="nav-link" href="login.php">Login</a>
                 </li>
                 <li class="nav-item signupbtn">
-                    <a class="nav-link text-secondary" href="#">Sign Up</a>
+                    <a class="nav-link text-secondary" href="signup.php">Sign Up</a>
                 </li>
             </ul>
         </div>
