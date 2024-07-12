@@ -1,3 +1,10 @@
+<?php
+session_start();
+
+// Check if user is logged in
+$is_logged_in = isset($_SESSION['user_id']);
+$user_name = $is_logged_in ? $_SESSION['user_name'] : '';
+?>
 <!-- header.php -->
 <!DOCTYPE html>
 <html lang="en">
@@ -39,13 +46,22 @@
             </ul>
         </div>
         <div class="ml-auto">
-            <ul class="navbar-nav  align-items-center">
-                <li class="nav-item login">
-                    <a class="nav-link" href="views/login.php">Login</a>
-                </li>
-                <li class="nav-item signupbtn">
-                    <a class="nav-link text-secondary" href="views/signup.php">Sign Up</a>
-                </li>
+            <ul class="navbar-nav align-items-center">
+                <?php if ($is_logged_in) : ?>
+                    <li class="nav-item">
+                        <h3 class="mr-3 mb-0">👋 Hi, <?php echo $user_name; ?></h3>
+                    </li>
+                    <li class="nav-item">
+                        <a href="logout.php" class="btn btn-primary">Logout</a>
+                    </li>
+                <?php else : ?>
+                    <li class="nav-item login">
+                        <a class="nav-link" href="views/login.php">Login</a>
+                    </li>
+                    <li class="nav-item signupbtn">
+                        <a class="nav-link text-secondary" href="views/signup.php">Sign Up</a>
+                    </li>
+                <?php endif; ?>
             </ul>
         </div>
     </nav>

@@ -1,4 +1,22 @@
-<!-- header.php -->
+<?php
+session_start();
+
+// Initialize variables
+$user_name = "";
+$is_logged_in = false;
+
+// Check if user is logged in
+if (isset($_SESSION['user_id'])) {
+    // User is logged in
+    $user_name = htmlspecialchars($_SESSION['user_name']);
+    $is_logged_in = true;
+} else {
+    // User is not logged in, redirect to login page
+    header("Location: login.php");
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,16 +56,26 @@
                 </li>
             </ul>
         </div>
-        <div class="ml-auto">
-        <ul class="navbar-nav  align-items-center">
-                <li class="nav-item login">
-                    <a class="nav-link" href="login.php">Login</a>
-                </li>
-                <li class="nav-item signupbtn">
-                    <a class="nav-link text-secondary" href="signup.php">Sign Up</a>
-                </li>
-            </ul>
+        <div>
+            <?php if ($is_logged_in) : ?>
+                <div class="d-flex">
+                    <h3 class="mr-3 mb-0">👋 Hi, <?php echo $user_name; ?></h3>
+                    <a href="../logout.php" class="btn btn-primary">Logout</a>
+                </div>
+            <?php else : ?>
+                <div class="ml-auto">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item login">
+                            <a class="nav-link" href="login.php">Login</a>
+                        </li>
+                        <li class="nav-item signupbtn">
+                            <a class="nav-link text-secondary" href="signup.php">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            <?php endif; ?>
         </div>
+
     </nav>
 
 

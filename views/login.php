@@ -1,5 +1,53 @@
+<?php
+session_start();
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+// Include database connection
+require_once '../includes/db.php';
+
+$message = ""; // Initialize empty message variable
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Capture form data
+    $email = trim($_POST['email']);
+    $password = trim($_POST['password']);
+
+    // Validate input
+    if (empty($email) || empty($password)) {
+        $message = "All fields are required.";
+    } else {
+        try {
+            // Check if email exists
+            $stmt_check = $conn->prepare("SELECT * FROM users WHERE email = :email");
+            $stmt_check->bindParam(':email', $email);
+            $stmt_check->execute();
+            $user = $stmt_check->fetch(PDO::FETCH_ASSOC);
+
+            if ($user && password_verify($password, $user['password'])) {
+                // Password is correct, start a session
+                $_SESSION['user_id'] = $user['id'];
+                $_SESSION['user_name'] = $user['first_name'];
+
+                // Redirect to the dashboard or any other page
+                header("Location: ../index.php");
+                exit();
+            } else {
+                $message = "Invalid email or password.";
+            }
+        } catch (PDOException $e) {
+            // Error message
+            $message = "Error: " . $e->getMessage();
+            // Log the error
+            error_log("Error in login.php: " . $e->getMessage());
+        }
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +55,29 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
 </head>
+
 <body>
     <div class="container my-5">
         <div class="row">
             <div class="col-md-6 offset-md-3">
                 <div class="login-form">
                     <h2 class="text-center">Login</h2>
-                    <form class="mt-4">
+
+                    <!-- Display message here -->
+                    <?php if (!empty($message)) : ?>
+                        <div class="alert alert-danger">
+                            <?php echo $message; ?>
+                        </div>
+                    <?php endif; ?>
+
+                    <form class="mt-4" method="POST" action="login.php">
                         <div class="form-group">
                             <label for="loginEmail">Email address</label>
-                            <input type="email" class="form-control" id="loginEmail" placeholder="Enter email">
+                            <input type="email" class="form-control" id="loginEmail" name="email" placeholder="Enter email" required>
                         </div>
                         <div class="form-group">
                             <label for="loginPassword">Password</label>
-                            <input type="password" class="form-control" id="loginPassword" placeholder="Password">
+                            <input type="password" class="form-control" id="loginPassword" name="password" placeholder="Password" required>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block">Login</button>
                     </form>
@@ -30,4 +87,5 @@
         </div>
     </div>
 </body>
+
 </html>

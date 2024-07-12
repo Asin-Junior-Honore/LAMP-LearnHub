@@ -1,12 +1,19 @@
-<!-- db.php -->
-
 <?php
 $servername = "localhost";
-$username = "your_username";
-$password = "your_password";
-$dbname = "online_learning";
+$username = "root";
+$password = "";
+$dbname = "learn_hub";
 
-// Create connection
-$db = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-?>
+
+// $servername = "localhost";
+// $username = "your_username";
+// $password = "your_password";
+// $dbname = "online_learning";
+
+try {
+    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    echo "Connection failed: " . $e->getMessage();
+    exit();
+}

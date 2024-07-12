@@ -35,9 +35,7 @@
 <main class="container-xl">
     <div class="row align-items-center mt-5 section-2">
         <aside class="col-md-6 text-center leftimg">
-            <img class="img-fluid"
-                src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/studio-shot-of-cute-thankful-clever-student-feels-RP65PDL-1.png"
-                alt="">
+            <img class="img-fluid" src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/studio-shot-of-cute-thankful-clever-student-feels-RP65PDL-1.png" alt="">
         </aside>
         <aside class="col-md-6 text-center text-md-left px-5">
             <h2 class="display-4 "> Providing Amazing Online Courses</h2>
@@ -187,8 +185,7 @@
         </aside>
 
         <aside class="manimg ml-5">
-            <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/cheerful-bearded-senior-european-man-smiles-gladfu-BSUDYSL-1.png"
-                alt="">
+            <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/cheerful-bearded-senior-european-man-smiles-gladfu-BSUDYSL-1.png" alt="">
         </aside>
     </section>
 
@@ -234,8 +231,7 @@
                     mattis, dui condimentum aliquet eleifend, enim nulla pharetra nunc.</p>
             </div>
             <div class="ladyimg">
-                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/horizontal-shot-of-pleasant-looking-cheerful-europ-H6BTHYD-1.png"
-                    alt="" class="w-100 h-100">
+                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/horizontal-shot-of-pleasant-looking-cheerful-europ-H6BTHYD-1.png" alt="" class="w-100 h-100">
             </div>
         </aside>
     </section>
@@ -256,8 +252,7 @@
         <div class="courses">
             <aside>
                 <div class="courseimgdiv">
-                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/process-of-writing-calligraphy-writer-TFPYERL-800x533.jpg"
-                        alt="">
+                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/process-of-writing-calligraphy-writer-TFPYERL-800x533.jpg" alt="">
                 </div>
                 <span class="">
                     <li class="list-inline-item">
@@ -272,8 +267,7 @@
             </aside>
             <aside>
                 <div class="courseimgdiv">
-                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/girl-playing-singer-5GNLZJU-800x533.jpg"
-                        alt="">
+                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/girl-playing-singer-5GNLZJU-800x533.jpg" alt="">
                 </div>
                 <span class="">
                     <li class="list-inline-item">
@@ -288,8 +282,7 @@
             </aside>
             <aside>
                 <div class="courseimgdiv">
-                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/website-designer-EH7YWVE-1024x683.jpg"
-                        alt="">
+                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/website-designer-EH7YWVE-1024x683.jpg" alt="">
                 </div>
                 <span class="">
                     <li class="list-inline-item">
@@ -305,8 +298,7 @@
             </aside>
             <aside>
                 <div class="courseimgdiv">
-                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/image-of-programmer-man-wearing-eyeglasses-working-RP2YDGV-800x533.jpg"
-                        alt="">
+                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/image-of-programmer-man-wearing-eyeglasses-working-RP2YDGV-800x533.jpg" alt="">
                 </div>
                 <span class="">
                     <li class="list-inline-item">
@@ -337,29 +329,25 @@
         </div>
         <div class="d-flex justify-content-between mt-5 gap-3">
             <div class="mentor-details text-center">
-                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png"
-                    alt=" ">
+                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png" alt=" ">
                 <h3 class="mentor-name my-2">Stan McGyver
                 </h3>
                 <small>Mentor</small>
             </div>
             <div class="mentor-details text-center">
-                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png"
-                    alt=" ">
+                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png" alt=" ">
                 <h3 class="mentor-name my-2">Stan McGyver
                 </h3>
                 <small>Mentor</small>
             </div>
             <div class="mentor-details text-center">
-                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png"
-                    alt=" ">
+                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png" alt=" ">
                 <h3 class="mentor-name my-2">Stan McGyver
                 </h3>
                 <small>Mentor</small>
             </div>
             <div class="mentor-details text-center">
-                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png"
-                    alt=" ">
+                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png" alt=" ">
                 <h3 class="mentor-name my-2">Stan McGyver
                 </h3>
                 <small>Mentor</small>

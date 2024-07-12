@@ -1,3 +1,36 @@
+<?php
+session_start();
+
+// Initialize variables
+$user_name = "";
+$is_logged_in = false;
+
+// Check if user is logged in
+if (isset($_SESSION['user_id'])) {
+    // User is logged in
+    $user_name = htmlspecialchars($_SESSION['user_name']);
+    $is_logged_in = true;
+} else {
+    // User is not logged in, redirect to login page
+    header("Location: login.php");
+    exit();
+}
+
+// Include your database connection file here
+require_once '../includes/db.php';
+
+// Initialize variables
+$courses = [];
+
+// Fetch courses from the database
+try {
+    $stmt = $conn->prepare("SELECT * FROM courses");
+    $stmt->execute();
+    $courses = $stmt->fetchAll(PDO::FETCH_ASSOC);
+} catch (PDOException $e) {
+    echo "Error: " . $e->getMessage();
+}
+?>
 <!-- header.php -->
 <!DOCTYPE html>
 <html lang="en">
@@ -39,16 +72,26 @@
                 </li>
             </ul>
         </div>
-        <div class="ml-auto">
-            <ul class="navbar-nav  align-items-center">
-                <li class="nav-item login">
-                    <a class="nav-link" href="login.php">Login</a>
-                </li>
-                <li class="nav-item signupbtn">
-                    <a class="nav-link text-secondary" href="signup.php">Sign Up</a>
-                </li>
-            </ul>
+        <div>
+            <?php if ($is_logged_in) : ?>
+                <div class="d-flex">
+                    <h3 class="mr-3 mb-0">👋 Hi, <?php echo $user_name; ?></h3>
+                    <a href="../logout.php" class="btn btn-primary">Logout</a>
+                </div>
+            <?php else : ?>
+                <div class="ml-auto">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item login">
+                            <a class="nav-link" href="login.php">Login</a>
+                        </li>
+                        <li class="nav-item signupbtn">
+                            <a class="nav-link text-secondary" href="signup.php">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            <?php endif; ?>
         </div>
+
     </nav>
 
 
@@ -98,69 +141,29 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
                     turpis vitae maximus.</p>
             </aside>
-            <aside>
-                <div class="courseimgdiv">
-                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/website-designer-EH7YWVE-1024x683.jpg" alt="">
-                </div>
-                <span class="">
-                    <li class="list-inline-item">
-                        <a class="btn btn-primary" href="#">Graphics</a>
-                        <a class="btn btn-primary" href="#">Design</a>
-                    </li>
-                    <p><b>$25/ </b> course</p>
-                </span>
-                <h2>How to become a good designer</h2>
+            <?php if (!empty($courses)) : ?>
+                <?php foreach ($courses as $course) : ?>
+                    <aside>
+                        <div class="courseimgdiv">
+                            <img src="<?php echo htmlspecialchars($course['course_image']); ?>" alt="<?php echo htmlspecialchars($course['course_name']); ?>">
+                        </div>
+                        <span class="">
+                            <li class="list-inline-item">
+                                <a class="btn btn-primary" href="#"><?php echo htmlspecialchars($course['category1']); ?></a>
+                                <?php if (!empty($course['category2'])) : ?>
+                                    <a class="btn btn-primary" href="#"><?php echo htmlspecialchars($course['category2']); ?></a>
+                                <?php endif; ?>
+                            </li>
+                            <p><b>$<?php echo htmlspecialchars($course['course_price']); ?> /</b> course</p>
+                        </span>
+                        <h2><?php echo htmlspecialchars($course['course_name']); ?></h2>
+                        <p><?php echo htmlspecialchars($course['course_description']); ?></p>
+                    </aside>
+                <?php endforeach; ?>
+            <?php else : ?>
+                <p>No courses available.</p>
+            <?php endif; ?>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
-                    turpis vitae maximus.</p>
-            </aside>
-            <aside>
-                <div class="courseimgdiv">
-                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/image-of-programmer-man-wearing-eyeglasses-working-RP2YDGV-800x533.jpg" alt="">
-                </div>
-                <span class="">
-                    <li class="list-inline-item">
-                        <a class="btn btn-primary" href="#">UI/UX</a>
-                        <a class="btn btn-primary" href="#">Coding</a>
-                    </li>
-                    <p><b>$25/ </b> course</p>
-                </span>
-                <h2>Learn about Android Coding</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
-                    turpis vitae maximus.</p>
-            </aside>
-            <aside>
-
-                <div class="courseimgdiv">
-                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/boy-studying-on-laptop-4JG9XFN-800x533.jpg" alt="">
-                </div>
-                <span class="">
-                    <li class="list-inline-item">
-                        <a class="btn btn-primary" href="#">Kids</a>
-                        <a class="btn btn-primary" href="#">School</a>
-                    </li>
-                    <p><b>$25/ </b> course</p>
-                </span>
-                <h2>Elementary School Material</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
-                    turpis vitae maximus.</p>
-            </aside>
-
-            <aside>
-                <div class="courseimgdiv">
-                    <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/study-online-M249RNU-800x534.jpg" alt="">
-                </div>
-                <span class="">
-                    <li class="list-inline-item">
-                        <a class="btn btn-primary" href="#">Science</a>
-                        <a class="btn btn-primary" href="#">Math</a>
-                    </li>
-                    <p><b>$25/ </b> course</p>
-                </span>
-                <h2>Advanced Mathematic</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
-                    turpis vitae maximus.</p>
-            </aside>
         </div>
     </section>
 
