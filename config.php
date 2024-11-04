@@ -1,7 +1,6 @@
-<!-- config.php -->
 
 <?php
-define('BASE_URL', 'http://localhost/online-learning-platform/'); // Adjust if needed
+define('BASE_URL', 'http://localhost/online-learning-platform/');
 
 $servername = "localhost";
 $username = "your_username";

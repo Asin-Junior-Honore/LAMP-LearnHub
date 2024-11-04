@@ -2,10 +2,9 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-// Include database connection
 require_once './includes/db.php';
 
-$message = ""; // Initialize empty message variable
+$message = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Capture form data
@@ -19,7 +18,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $message = "All fields are required.";
     } else {
         try {
-            // Check if email already exists
             $stmt_check = $conn->prepare("SELECT COUNT(*) AS count FROM users WHERE email = :email");
             $stmt_check->bindParam(':email', $email);
             $stmt_check->execute();
@@ -28,10 +26,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if ($result['count'] > 0) {
                 $message = "Email already exists. Please choose a different email.";
             } else {
-                // Hash the password
+              
                 $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
-                // Insert data into the users table
                 $stmt_insert = $conn->prepare("INSERT INTO users (first_name, last_name, email, password) VALUES (:first_name, :last_name, :email, :password)");
                 $stmt_insert->bindParam(':first_name', $first_name);
                 $stmt_insert->bindParam(':last_name', $last_name);
@@ -40,14 +37,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 $stmt_insert->execute();
 
-                // Redirect to login page after successful signup
+
                 header("Location:login.php");
                 exit();
             }
         } catch (PDOException $e) {
-            // Error message
+
             $message = "Error: " . $e->getMessage();
-            // Log the error
+
             error_log("Error in signup.php: " . $e->getMessage());
         }
     }
@@ -73,7 +70,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="signup-form p-4 shadow-lg">
                     <h2 class="text-center">Signup</h2>
 
-                    <!-- Display message here -->
+                  
                     <?php if (!empty($message)) : ?>
                         <div class="alert alert-<?php echo strpos($message, 'already exists') !== false || strpos($message, 'required') !== false ? 'danger' : 'success'; ?>">
                             <?php echo $message; ?>

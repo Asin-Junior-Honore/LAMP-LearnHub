@@ -1,24 +1,19 @@
 <?php
 session_start();
 
-// Check if user is not logged in, redirect to login page
 if (!isset($_SESSION['user_id'])) {
     header("Location: login.php");
     exit();
 }
 
-// Include your database connection file here
 require_once '../includes/db.php';
 
-// Initialize variables
 $course_name = $course_description = $course_image = $course_price = $course_duration = $category1 = $category2 = "";
 $error_message = "";
-$success_message = $_SESSION['success_message'] ?? ''; // Retrieve success message from session
+$success_message = $_SESSION['success_message'] ?? '';
 
-// Unset success message once displayed
 unset($_SESSION['success_message']);
 
-// Process form submission if POST method is used
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Sanitize and validate form data
     $course_name = htmlspecialchars(trim($_POST['course_name']));
@@ -29,14 +24,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $category1 = htmlspecialchars(trim($_POST['category1']));
     $category2 = htmlspecialchars(trim($_POST['category2']));
 
-    // Get creator_id from session
-    $creator_id = $_SESSION['user_id'];
 
-    // Basic validation
+    $creator_id = $_SESSION['user_id'];
     if (empty($course_name) || empty($course_description) || empty($course_image) || $course_price <= 0 || empty($course_duration) || empty($category1)) {
         $error_message = "All fields are required.";
     } else {
-        // Insert data into the database
         try {
             $stmt = $conn->prepare("INSERT INTO courses (course_name, course_description, course_image, course_price, course_duration, category1, category2, creator_id)
             VALUES (:course_name, :course_description, :course_image, :course_price, :course_duration, :category1, :category2, :creator_id)");
@@ -49,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $stmt->bindParam(':category2', $category2);
             $stmt->bindParam(':creator_id', $creator_id);
             $stmt->execute();
-            
+
             // Set success message in session
             $_SESSION['success_message'] = "Course created successfully.";
 
@@ -71,7 +63,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Course</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Add your custom stylesheets here -->
 </head>
 
 <body>

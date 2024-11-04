@@ -3,11 +3,9 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-// Check if user is logged in
 $is_logged_in = isset($_SESSION['user_id']);
 $user_name = $is_logged_in ? $_SESSION['user_name'] : '';
 
-// Redirect if user is not logged in and accessing a page other than 'index.php'
 if (!$is_logged_in && basename($_SERVER['PHP_SELF']) !== 'index.php') {
     header("Location: login.php");
     exit();
@@ -79,8 +77,6 @@ if (!$is_logged_in && basename($_SERVER['PHP_SELF']) !== 'index.php') {
 
         </div>
     </nav>
-
-    <!-- Bootstrap 4.5 JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

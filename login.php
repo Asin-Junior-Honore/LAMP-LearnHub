@@ -3,42 +3,40 @@ session_start();
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-// Include database connection
+
 require_once './includes/db.php';
 
-$message = ""; // Initialize empty message variable
+$message = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Capture form data
     $email = trim($_POST['email']);
     $password = trim($_POST['password']);
 
-    // Validate input
     if (empty($email) || empty($password)) {
         $message = "All fields are required.";
     } else {
         try {
-            // Check if email exists
+
             $stmt_check = $conn->prepare("SELECT * FROM users WHERE email = :email");
             $stmt_check->bindParam(':email', $email);
             $stmt_check->execute();
             $user = $stmt_check->fetch(PDO::FETCH_ASSOC);
 
             if ($user && password_verify($password, $user['password'])) {
-                // Password is correct, start a session
+
                 $_SESSION['user_id'] = $user['id'];
                 $_SESSION['user_name'] = $user['first_name'];
 
-                // Redirect to the dashboard or any other page
+
                 header("Location: ./index.php");
                 exit();
             } else {
                 $message = "Invalid email or password.";
             }
         } catch (PDOException $e) {
-            // Error message
+
             $message = "Error: " . $e->getMessage();
-            // Log the error
             error_log("Error in login.php: " . $e->getMessage());
         }
     }
