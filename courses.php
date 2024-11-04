@@ -21,7 +21,7 @@ try {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home |🧑‍💻</title>
+    <title>Courses |🧑‍💻</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css">
@@ -31,12 +31,10 @@ try {
 
 <body>
     <?php include 'includes/header.php'; ?>
-
-
     <section class=" py-5 px-0 d-flex  justify-content-center align-items-end course-1">
         <div class="about-box">
             <h1>Our Courses</h1>
-            <p>Information about the company.</p>
+            <p>Courses to help you grow.</p>
         </div>
     </section>
 
