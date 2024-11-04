@@ -1,4 +1,3 @@
-
 <?php include 'includes/header.php'; ?>
 <section class=" hero-section text-center d-flex align-items-center justify-content-center">
     <div class="row container-xl pt-5 align-items-center ">
@@ -9,7 +8,7 @@
             <div>
                 <ul class="list-inline">
                     <li class="list-inline-item">
-                        <a class="btn btn-primary btn-lg" href="#">▶️ Watch Video</a>
+                        <a class="btn btn-primary btn-lg" href="#">Watch Video</a>
                     </li>
                     <li class="list-inline-item">
                         <a class="btn btn-secondary btn-lg" href="#">Get Started</a>
@@ -43,21 +42,21 @@
             <div>
                 <ul class="list-inline">
                     <li class="list-inline-item">
-                        <a class="btn btn-primary btn-lg" href="#">▶️ Watch Video</a>
+                        <a class="btn btn-primary btn-lg" href="#">Watch Video</a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="btn btn-secondary btn-lg" href="#">📞 Contact us</a>
+                        <a class="btn btn-secondary btn-lg" href="#">Contact us</a>
                     </li>
                 </ul>
             </div>
         </aside>
     </div>
 
-    <section class="container py-5 px-0 mt-5 section-3">
+    <section class="container px-0 mt-5 section-3">
         <div class="mr-5">
             <aside class="">
-                <h2 class="display-5 ">Premium Learning Experience</h2>
-                <p class="lead my-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit.
+                <h2 class="display-4 ">Premium Learning Experience</h2>
+                <p class="lead my-3 my-lg-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit.
                     Donec bibendum turpis vitae maximus bibendum.</p>
                 <div class=" image-div">
                     <h3 class="h4">Quality online courses for all!</h3>
@@ -71,8 +70,8 @@
             </aside>
 
         </div>
-        <div class="p-0">
-            <div class="">
+        <div class="p-0 mt-5 mt-lg-0">
+            <div>
                 <div class="d-flex align-items-start">
                     <span class="badge badge-primary mr-3">1</span>
                     <div>
@@ -105,7 +104,7 @@
         </div>
     </section>
 
-    <section class="section-4 mt-5 py-5">
+    <section class="section-4 py-5">
         <div class="text-center mb-5">
             <h2>Browse By Category</h2>
             <p>Integer suscipit justo vel iaculis scelerisque. Nam vel porta augue. Proin egestas leo magna, vel <br />
@@ -183,7 +182,7 @@
             </div>
         </aside>
 
-        <aside class="manimg ml-0 ml-lg-5">
+        <aside class="manimg ml-0 ml-lg-5 mt-5 mt-lg-0">
             <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/cheerful-bearded-senior-european-man-smiles-gladfu-BSUDYSL-1.png" alt="">
         </aside>
     </section>
@@ -220,7 +219,7 @@
             </div>
         </aside>
 
-        <aside class="description">
+        <aside class="description mt-5 mt-lg-0">
             <div>
                 <h2>Making Your Learning More Enjoyable</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
@@ -236,7 +235,7 @@
     </section>
 
 
-    <section class="section-7 p-0">
+    <section class="section-7 p-0 mt-5 mt-lg-0">
         <div>
             <h2>Explore Our Courses</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum turpis

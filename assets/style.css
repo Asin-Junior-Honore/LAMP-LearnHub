@@ -16,7 +16,7 @@ body {
 
 .navbar-brand h2 {
   color: #343a40;
-  font-size: 24px;
+  font-size: 30px;
   margin: 0;
 }
 
@@ -43,8 +43,8 @@ body {
 }
 
 .btn-primary {
-  background-color: #5e72e4;
-  border-color: #5e72e4;
+  background-color: #9080fc;
+  border: none;
   color: white;
   transition: background-color 0.3s ease;
 }
@@ -73,7 +73,7 @@ body {
 }
 
 /* Typography */
-h2 {
+.section-8 h2 {
   font-size: 2.5rem;
   font-weight: 700;
   color: #333;
@@ -163,7 +163,6 @@ h3,
 
 .section-4 h2 {
   font-size: 2.5rem;
-  font-weight: 700;
   color: #333;
 }
 
@@ -566,6 +565,22 @@ footer .social-icons a {
   .section-6 {
     flex-direction: column;
   }
+
+  .section-3 {
+    padding: 0;
+  }
+  .section-3 h2 {
+    font-size: 40px;
+  }
+
+  .section-4 h2,
+  .section-5 h2,
+  .description h2,
+  .section-7 h2,
+  .section-8 h2 {
+    font-size: 36px;
+    font-weight: 400;
+  }
   .features-grid,
   .courses {
     grid-template-columns: repeat(1, 1fr);
@@ -591,5 +606,8 @@ footer .social-icons a {
 
   body br {
     display: none !important;
+  }
+  .stats p {
+    font-size: 1.3rem;
   }
 }
