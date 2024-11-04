@@ -1,9 +1,8 @@
-<!-- index.php -->
 
 <?php include 'includes/header.php'; ?>
 <section class=" hero-section text-center d-flex align-items-center justify-content-center">
     <div class="row container-xl pt-5 align-items-center ">
-        <aside class="col-md-6 text-center text-md-left mb-4 mb-md-0 p-0 ">
+        <aside class="col-md-6 text-start text-md-left mb-4 mb-md-0 p-0 ">
             <h1 class="display-4">The Best Online Course You'll Find</h1>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
                 ullamcorper mattis, pulvinar dapibus leo.</p>
@@ -17,12 +16,12 @@
                     </li>
                 </ul>
             </div>
-            <div class="stats d-flex justify-content-between mt-4">
+            <div class="stats d-flex flex-lg-row flex-column justify-content-between mt-4">
                 <div class="text-center">
                     <h3>940+</h3>
                     <p>Online users</p>
                 </div>
-                <div class="text-center ml-3">
+                <div class="text-center ml-lg-3">
                     <h3>17K</h3>
                     <p>Active users</p>
                 </div>
@@ -32,12 +31,12 @@
     </div>
 </section>
 
-<main class="container-xl">
+<main class="container-xl padx">
     <div class="row align-items-center mt-5 section-2">
         <aside class="col-md-6 text-center leftimg">
             <img class="img-fluid" src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/studio-shot-of-cute-thankful-clever-student-feels-RP65PDL-1.png" alt="">
         </aside>
-        <aside class="col-md-6 text-center text-md-left px-5">
+        <aside class="col-md-6 text-start text-md-left px-lg-5">
             <h2 class="display-4 "> Providing Amazing Online Courses</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
                 pulvinar dapibus leo.</p>
@@ -184,7 +183,7 @@
             </div>
         </aside>
 
-        <aside class="manimg ml-5">
+        <aside class="manimg ml-0 ml-lg-5">
             <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/cheerful-bearded-senior-european-man-smiles-gladfu-BSUDYSL-1.png" alt="">
         </aside>
     </section>

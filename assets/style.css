@@ -9,47 +9,67 @@ body {
 /* Navbar Styles */
 .navbar-nav .nav-link {
   color: black !important;
-  margin-inline: 10px;
+  margin-inline: 15px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .navbar-brand h2 {
-  color: black;
+  color: #343a40;
+  font-size: 24px;
   margin: 0;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  flex-grow: 0.5;
 }
 
 /* Button Styles */
 .signupbtn {
   background-color: #9080fc;
-  padding: 3px 20px;
+  padding: 5px 15px;
   border-radius: 25px;
+  transition: all 0.3s ease;
 }
 
 .signupbtn:hover {
   background-color: #fff;
-  transition: 0.3s ease-in-out;
+  color: #9080fc !important;
   border: 2px solid #9080fc;
 }
 
 .signupbtn .nav-link {
-  color: #fff !important;
+  color: white !important;
 }
 
 .btn-primary {
   background-color: #5e72e4;
   border-color: #5e72e4;
   color: white;
+  transition: background-color 0.3s ease;
 }
 
-.btn-secondary {
-  background-color: #fff;
-  border-color: #6c757d;
-  color: rgb(10, 5, 5);
+.btn-primary:hover {
+  background-color: #4a62d4;
 }
 
 .btn-lg {
   padding: 0.5rem 1.5rem;
   font-size: 1.25rem;
   border-radius: 0.3rem;
+}
+
+/* Smooth Transition for Navbar Toggle */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  color: #343a40;
+}
+
+.collapse {
+  transition: height 0.5s ease-in-out;
 }
 
 /* Typography */
@@ -206,16 +226,11 @@ h3,
   color: #6c757d;
 }
 
-Utility Styles
-/* .allborder {
-  border: 2px solid red;
-} */
-/* Section-5 Styles */
 .section-5 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3rem 0;
+  padding-block: 3rem;
   border-radius: 0.5rem;
 }
 
@@ -296,7 +311,6 @@ Utility Styles
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3rem 0;
 }
 
 .section-6 aside {
@@ -496,4 +510,86 @@ footer .social-icons {
 footer .social-icons a {
   margin: 0 10px;
   font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  ul.navbar-nav.align-items-center {
+    flex-direction: row;
+  }
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  p.lead,
+  .lead {
+    font-size: 18px;
+  }
+  .hero-image-container::before {
+    top: 40px;
+  }
+  .hero-section {
+    overflow: hidden;
+  }
+
+  aside.col-md-6.text-start.text-md-left.mb-4.mb-md-0.p-0 {
+    text-align: start;
+  }
+
+  .hero-image-container {
+    height: 530px;
+  }
+  .stats {
+    top: 40px;
+    padding: 0px;
+    gap: 30px;
+  }
+
+  .stats div {
+    padding: 20px 100px;
+    width: -webkit-fill-available;
+    border-radius: 10px;
+  }
+
+  .section-2 {
+    flex-direction: column-reverse;
+  }
+  .section-2 aside.col-md-6.text-start.text-md-left.px-lg-5 {
+    margin-block: 40px;
+  }
+  .section-2 .list-inline {
+    display: flex;
+  }
+  .section-2 .list-inline .btn-lg {
+    padding: 0.5rem 1rem;
+  }
+  .section-3,
+  .section-5,
+  .section-6 {
+    flex-direction: column;
+  }
+  .features-grid,
+  .courses {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .section-6 aside {
+    padding: 0;
+  }
+  .d-flex.justify-content-between.mt-5.gap-3 {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .mentor-details img {
+    width: 100%;
+  }
+  .container {
+    padding-inline: 0;
+  }
+  footer .container {
+    padding-inline: 20px;
+  }
+
+  body br {
+    display: none !important;
+  }
 }

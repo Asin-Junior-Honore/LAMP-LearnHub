@@ -28,7 +28,7 @@
             </div>
         </div>
         <hr>
-        <p>&copy; <?php echo date('Y'); ?> LearnHub. All rights reserved.</p>
+        <p class="text-center">&copy; <?php echo date('Y'); ?> LearnHub. All rights reserved.</p>
     </div>
 </footer>
 </body>

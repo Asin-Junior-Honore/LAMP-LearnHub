@@ -71,26 +71,27 @@ try {
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
             </ul>
+            <div>
+                <?php if ($is_logged_in) : ?>
+                    <div class="d-flex">
+                        <h3 class="mr-3 mb-0">👋 Hi, <?php echo $user_name; ?></h3>
+                        <a href="../logout.php" class="btn btn-primary">Logout</a>
+                    </div>
+                <?php else : ?>
+                    <div class="ml-auto">
+                        <ul class="navbar-nav align-items-center">
+                            <li class="nav-item login">
+                                <a class="nav-link" href="login.php">Login</a>
+                            </li>
+                            <li class="nav-item signupbtn">
+                                <a class="nav-link text-secondary" href="signup.php">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                <?php endif; ?>
+            </div>
         </div>
-        <div>
-            <?php if ($is_logged_in) : ?>
-                <div class="d-flex">
-                    <h3 class="mr-3 mb-0">👋 Hi, <?php echo $user_name; ?></h3>
-                    <a href="../logout.php" class="btn btn-primary">Logout</a>
-                </div>
-            <?php else : ?>
-                <div class="ml-auto">
-                    <ul class="navbar-nav align-items-center">
-                        <li class="nav-item login">
-                            <a class="nav-link" href="login.php">Login</a>
-                        </li>
-                        <li class="nav-item signupbtn">
-                            <a class="nav-link text-secondary" href="signup.php">Sign Up</a>
-                        </li>
-                    </ul>
-                </div>
-            <?php endif; ?>
-        </div>
+
 
     </nav>
 
@@ -104,7 +105,7 @@ try {
 
 
 
-    <section class="section-7 p-0 container-xl text-center">
+    <section class="section-7 container-xl text-center">
         <div>
             <h2>Explore Our Courses</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum <br /> turpis
@@ -195,6 +196,8 @@ try {
     </div>
 
     <?php include '../includes/footer.php'; ?>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

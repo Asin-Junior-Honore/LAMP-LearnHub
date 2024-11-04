@@ -55,26 +55,28 @@ if (isset($_SESSION['user_id'])) {
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
             </ul>
+
+            <div>
+                <?php if ($is_logged_in) : ?>
+                    <div class="d-flex">
+                        <h3 class="mr-3 mb-0">👋 Hi, <?php echo $user_name; ?></h3>
+                        <a href="../logout.php" class="btn btn-primary">Logout</a>
+                    </div>
+                <?php else : ?>
+                    <div class="ml-auto">
+                        <ul class="navbar-nav align-items-center">
+                            <li class="nav-item login">
+                                <a class="nav-link" href="login.php">Login</a>
+                            </li>
+                            <li class="nav-item signupbtn">
+                                <a class="nav-link text-secondary" href="signup.php">Sign Up</a>
+                            </li>
+                        </ul>
+                    </div>
+                <?php endif; ?>
+            </div>
         </div>
-        <div>
-            <?php if ($is_logged_in) : ?>
-                <div class="d-flex">
-                    <h3 class="mr-3 mb-0">👋 Hi, <?php echo $user_name; ?></h3>
-                    <a href="../logout.php" class="btn btn-primary">Logout</a>
-                </div>
-            <?php else : ?>
-                <div class="ml-auto">
-                    <ul class="navbar-nav align-items-center">
-                        <li class="nav-item login">
-                            <a class="nav-link" href="login.php">Login</a>
-                        </li>
-                        <li class="nav-item signupbtn">
-                            <a class="nav-link text-secondary" href="signup.php">Sign Up</a>
-                        </li>
-                    </ul>
-                </div>
-            <?php endif; ?>
-        </div>
+
 
     </nav>
 
@@ -123,7 +125,7 @@ if (isset($_SESSION['user_id'])) {
             </div>
         </aside>
 
-        <aside class="manimg ml-5">
+        <aside class="manimg ml-0 ml-lg-5">
             <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/cheerful-bearded-senior-european-man-smiles-gladfu-BSUDYSL-1.png" alt="">
         </aside>
     </section>
@@ -175,7 +177,7 @@ if (isset($_SESSION['user_id'])) {
         </aside>
     </section>
 
-    <section class="section-8 container-xl p-0">
+    <section class="section-8 container-xl">
         <div>
             <h2>
                 Meet Our Mentors
@@ -294,6 +296,9 @@ if (isset($_SESSION['user_id'])) {
 
 
     <?php include '../includes/footer.php'; ?>
+    <!-- Bootstrap 4.5 JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

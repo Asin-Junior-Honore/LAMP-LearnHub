@@ -67,10 +67,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 
 <body>
-    <div class="container my-5">
-        <div class="row">
+    <div class="container d-flex align-items-center justify-content-center min-vh-100">
+        <div class="row w-100">
             <div class="col-md-6 offset-md-3">
-                <div class="signup-form">
+                <div class="signup-form p-4 shadow-lg">
                     <h2 class="text-center">Signup</h2>
 
                     <!-- Display message here -->
@@ -104,6 +104,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
