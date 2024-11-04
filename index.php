@@ -321,20 +321,20 @@
                 <small>Mentor</small>
             </div>
             <div class="mentor-details text-center">
-                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png" alt=" ">
-                <h3 class="mentor-name my-2">Stan McGyver
+                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/half-length-shot-of-cheerful-senior-man-smiles-hap-36A6ZXK-1.png" alt=" ">
+                <h3 class="mentor-name my-2">Gordon Stone
                 </h3>
                 <small>Mentor</small>
             </div>
             <div class="mentor-details text-center">
-                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png" alt=" ">
-                <h3 class="mentor-name my-2">Stan McGyver
+                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/portrait-of-good-looking-brunette-woman-smiles-too-UCETKXG-1.png" alt=" ">
+                <h3 class="mentor-name my-2">Lisa Rosse
                 </h3>
                 <small>Mentor</small>
             </div>
             <div class="mentor-details text-center">
-                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png" alt=" ">
-                <h3 class="mentor-name my-2">Stan McGyver
+                <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/indoor-shot-of-attractive-european-schoolgirl-has-LEUUQRK-1.png" alt=" ">
+                <h3 class="mentor-name my-2">Mulan Park
                 </h3>
                 <small>Mentor</small>
             </div>
