@@ -62,7 +62,7 @@
             </div>
         </aside>
 
-        <aside class="manimg ml-0 ml-lg-5">
+        <aside class="manimg ml-0 ml-lg-5 mt-5 mt-lg-0">
             <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/cheerful-bearded-senior-european-man-smiles-gladfu-BSUDYSL-1.png" alt="">
         </aside>
     </section>
@@ -99,7 +99,7 @@
             </div>
         </aside>
 
-        <aside class="description">
+        <aside class="description mt-5 mt-lg-0">
             <div>
                 <h2>Making Your Learning More Enjoyable</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
@@ -232,7 +232,7 @@
     </div>
 
 
-    <?php include '../includes/footer.php'; ?>
+    <?php include 'includes/footer.php'; ?>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

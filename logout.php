@@ -8,5 +8,5 @@ $_SESSION = array();
 session_destroy();
 
 // Redirect to the login page or any other page after logout
-header("Location: views/login.php");
+header("Location: index.php");
 exit();

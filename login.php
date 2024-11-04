@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $_SESSION['user_name'] = $user['first_name'];
 
                 // Redirect to the dashboard or any other page
-                header("Location: ../index.php");
+                header("Location: ./index.php");
                 exit();
             } else {
                 $message = "Invalid email or password.";

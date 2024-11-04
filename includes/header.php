@@ -1,11 +1,20 @@
 <?php
-session_start();
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 
 // Check if user is logged in
 $is_logged_in = isset($_SESSION['user_id']);
 $user_name = $is_logged_in ? $_SESSION['user_name'] : '';
+
+// Redirect if user is not logged in and accessing a page other than 'index.php'
+if (!$is_logged_in && basename($_SERVER['PHP_SELF']) !== 'index.php') {
+    header("Location: login.php");
+    exit();
+}
 ?>
-<!-- header.php -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -58,10 +67,10 @@ $user_name = $is_logged_in ? $_SESSION['user_name'] : '';
                             </li>
                         <?php else : ?>
                             <li class="nav-item login">
-                                <a class="nav-link" href="views/login.php">Login</a>
+                                <a class="nav-link" href="login.php">Login</a>
                             </li>
                             <li class="nav-item signupbtn">
-                                <a class="nav-link" href="views/signup.php">Sign Up</a>
+                                <a class="nav-link" href="signup.php">Sign Up</a>
                             </li>
                         <?php endif; ?>
                     </ul>

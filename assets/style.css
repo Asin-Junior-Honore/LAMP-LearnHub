@@ -184,11 +184,6 @@ h3,
   transform: translateY(-10px);
 }
 
-.category-box .icon {
-  font-size: 3rem;
-  color: #5e72e4;
-}
-
 .category-box h3 {
   font-size: 1.5rem;
   font-weight: 600;
@@ -199,6 +194,10 @@ h3,
 .category-box p {
   font-size: 1rem;
   color: #666;
+}
+.category-box span {
+  color: #5e72e4;
+  font-size: 35px;
 }
 
 /* Stats Styles */
@@ -310,12 +309,12 @@ h3,
 .section-6 {
   display: flex;
   align-items: center;
+  column-gap: 35px;
   justify-content: space-between;
 }
 
 .section-6 aside {
   flex: 1;
-  padding: 1rem;
 }
 
 .features-grid {
@@ -341,6 +340,7 @@ h3,
 
 .feature-box .icon {
   color: #5e72e4;
+  font-size: 35px;
   margin-bottom: 1rem;
 }
 
@@ -400,14 +400,6 @@ h3,
   width: 100%;
   height: 100%;
   z-index: -1;
-}
-
-.section-7,
-.section-8,
-.section-9 {
-  padding: 20px;
-  /* text-align: center;
-  border: 2px solid red; */
 }
 
 .section-7 h2 {
@@ -495,7 +487,7 @@ h3,
 }
 
 footer a {
-  color: #ffc107;
+  color: black;
   text-decoration: none;
 }
 
@@ -518,6 +510,10 @@ footer .social-icons a {
   }
   .display-4 {
     font-size: 2.5rem;
+  }
+
+  .image-div h3 {
+    font-size: 1.5rem;
   }
   p.lead,
   .lead {
@@ -565,6 +561,7 @@ footer .social-icons a {
   .section-5,
   .section-6 {
     flex-direction: column;
+    padding-block: 0;
   }
 
   .section-3 {
@@ -582,9 +579,11 @@ footer .social-icons a {
     font-size: 36px;
     font-weight: 400;
   }
+
   .features-grid,
   .courses {
     grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
   }
 
   .section-6 aside {
@@ -610,5 +609,8 @@ footer .social-icons a {
   }
   .stats p {
     font-size: 1.3rem;
+  }
+  .manimg {
+    height: auto;
   }
 }

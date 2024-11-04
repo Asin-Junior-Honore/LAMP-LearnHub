@@ -114,33 +114,34 @@
             <div class="row">
                 <div class="col-md-3 mb-4">
                     <div class="category-box text-center p-4">
-                        <span class="mb-3">icon</span>
+                        <span class="mb-3"><i class="fas fa-pen-nib"></i></span>
                         <h3>Writing</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div class="col-md-3 mb-4">
                     <div class="category-box text-center p-4">
-                        <span class=" mb-3">icon</span>
+                        <span class="mb-3"><i class="fas fa-paint-brush"></i></span>
                         <h3>Design</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div class="col-md-3 mb-4">
                     <div class="category-box text-center p-4">
-                        <span class="mb-3">icon</span>
+                        <span class="mb-3"><i class="fas fa-laptop-code"></i></span>
                         <h3>Website</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div class="col-md-3 mb-4">
                     <div class="category-box text-center p-4">
-                        <span class=" mb-3">icon</span>
+                        <span class="mb-3"><i class="fas fa-briefcase"></i></span>
                         <h3>Business</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
             </div>
+
 
             <div class="text-center mt-5">
                 <li class="list-inline-item">
@@ -188,30 +189,31 @@
     </section>
 
 
-    <section class="section-6">
+    <section class="section-6 mt-5 mt-lg-0">
         <aside>
             <div class="features-grid">
-                <div class="feature-box">
-                    <span class="icon">icon</span>
+                <div class="feature-box text-center">
+                    <span class="icon"><i class="fas fa-chalkboard-teacher"></i></span>
                     <h3>Expert Tutor</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum tortor aliquam nisl.</p>
                 </div>
-                <div class="feature-box">
-                    <span class="icon">icon</span>
+                <div class="feature-box text-center">
+                    <span class="icon"><i class="fas fa-infinity"></i></span>
                     <h3>Lifetime Access</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum tortor aliquam nisl.</p>
                 </div>
-                <div class="feature-box">
-                    <span class="icon">icon</span>
+                <div class="feature-box text-center">
+                    <span class="icon"><i class="fas fa-calendar-week"></i></span>
                     <h3>Weekly Event</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum tortor aliquam nisl.</p>
                 </div>
-                <div class="feature-box">
-                    <span class="icon">icon</span>
+                <div class="feature-box text-center">
+                    <span class="icon"><i class="fas fa-book-open"></i></span>
                     <h3>Updated Material</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum tortor aliquam nisl.</p>
                 </div>
             </div>
+
             <div class="mt-5">
                 <li class="list-inline-item w-100">
                     <a class="btn btn-primary btn-lg" href="#">Get Started</a>
@@ -235,7 +237,7 @@
     </section>
 
 
-    <section class="section-7 p-0 mt-5 mt-lg-0">
+    <section class="section-7 p-0 mt-5">
         <div>
             <h2>Explore Our Courses</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum turpis
