@@ -37,13 +37,13 @@ $user_name = $is_logged_in ? $_SESSION['user_name'] : '';
                         <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="views/about.php">About</a>
+                        <a class="nav-link" href="about.php">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="views/courses.php">Courses</a>
+                        <a class="nav-link" href="courses.php">Courses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="views/contact.php">Contact</a>
+                        <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                 </ul>
 

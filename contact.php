@@ -1,88 +1,19 @@
-<?php
-session_start();
-
-// Initialize variables
-$user_name = "";
-$is_logged_in = false;
-
-// Check if user is logged in
-if (isset($_SESSION['user_id'])) {
-    // User is logged in
-    $user_name = htmlspecialchars($_SESSION['user_name']);
-    $is_logged_in = true;
-} else {
-    // User is not logged in, redirect to login page
-    header("Location: login.php");
-    exit();
-}
-?>
-
-<!-- header.php -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home |🧑‍💻</title>
+    <title>Contact |🧑‍💻</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/style.css">
-    <link rel="stylesheet" href="../assets/css/about.css">
-    <link rel="stylesheet" href="../assets/css/contact.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
-            <h2>LearnHub</h2>
-            <!-- <img src="path/to/logo.png" width="30" height="30" alt="Logo"> -->
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.php">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.php">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="courses.php">Courses</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.php">Contact</a>
-                </li>
-            </ul>
-            <div>
-                <?php if ($is_logged_in) : ?>
-                    <div class="d-flex">
-                        <h3 class="mr-3 mb-0">👋 Hi, <?php echo $user_name; ?></h3>
-                        <a href="../logout.php" class="btn btn-primary">Logout</a>
-                    </div>
-                <?php else : ?>
-                    <div class="ml-auto">
-                        <ul class="navbar-nav align-items-center">
-                            <li class="nav-item login">
-                                <a class="nav-link" href="login.php">Login</a>
-                            </li>
-                            <li class="nav-item signupbtn">
-                                <a class="nav-link text-secondary" href="signup.php">Sign Up</a>
-                            </li>
-                        </ul>
-                    </div>
-                <?php endif; ?>
-            </div>
-        </div>
-
-
-    </nav>
-
-
+    <?php include 'includes/header.php'; ?>
 
     <section class=" py-5 px-0 d-flex  justify-content-center align-items-end contact-1">
         <div class="about-box">
