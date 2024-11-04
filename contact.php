@@ -18,39 +18,43 @@
     <section class=" py-5 px-0 d-flex  justify-content-center align-items-end contact-1">
         <div class="about-box">
             <h1>Contact Us</h1>
-            <p>Information about the company.</p>
+            <p>We’re here to help you.</p>
         </div>
     </section>
 
 
+
+
     <section class="section-9-about container-xl contact-form d-flex justify-content-between align-items-start">
+
         <aside class="contact-details">
             <h2>Get In Touch</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum turpis vitae maximus.</p>
+            <p>At LearnHub, we value open communication. Reach out to us with any questions or feedback. We're here to help!</p>
             <div class="contact-info">
                 <div class="d-flex align-items-center flex-column">
-                    <span class="contact-icon mr-3">icon</span>
+                    <span class="contact-icon mr-3"><i class="fas fa-map-marker-alt"></i></span>
                     <div>
-                        <h4>Address</h4>
+                        <h5>Address</h5>
                         <small>732 Despard St, Atlanta, Georgia 30060</small>
                     </div>
                 </div>
                 <div class="d-flex align-items-center flex-column">
-                    <span class="contact-icon mr-3">icon</span>
+                    <span class="contact-icon mr-3"><i class="fas fa-envelope"></i></span>
                     <div>
-                        <h4>Email</h4>
-                        <small>732 Despard St, Atlanta, Georgia 30060</small>
+                        <h5>Email</h5>
+                        <small>info@learnhub.com</small>
                     </div>
                 </div>
                 <div class="d-flex align-items-center flex-column">
-                    <span class="contact-icon mr-3">icon</span>
+                    <span class="contact-icon mr-3"><i class="fas fa-phone"></i></span>
                     <div>
-                        <h4>Phone</h4>
-                        <small>732 Despard St, Atlanta, Georgia 30060</small>
+                        <h5>Phone</h5>
+                        <small>(+234) 9111-812-9406</small>
                     </div>
                 </div>
             </div>
         </aside>
+
 
         <form action="" class="contact-form w-50">
             <div class="form-group d-flex">
@@ -77,17 +81,14 @@
             <div class="text-center p-5">
                 <h2>Ready to start learning? Contact us!
                 </h2>
-                <p class="my-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt <br /> velit.
-                    Donec
-                    bibendum
-                    turpis.</p>
+                <p class="my-5">Are you excited to embark on your learning journey? Our team at LearnHub is here to support you every step of the way. Whether you have questions about our courses, need assistance with enrollment, or want to explore personalized learning options, we’re just a message away. </p>
                 <div class="ml-auto text-center">
                     <ul class="navbar-nav justify-content-center flex-row align-items-center">
                         <li class="nav-item signupbtn">
-                            <a class="nav-link text-secondary" href="#">Sign Up</a>
+                            <a class="nav-link" href="#">Sign Up</a>
                         </li>
                         <li class="nav-item signupbtn ml-5">
-                            <a class="nav-link text-secondary" href="#">Sign Up</a>
+                            <a class="nav-link" href="#">Sign Up</a>
                         </li>
                     </ul>
                 </div>

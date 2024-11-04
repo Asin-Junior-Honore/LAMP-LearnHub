@@ -21,7 +21,7 @@
     <section class=" py-5 px-0 d-flex  justify-content-center align-items-end about-1">
         <div class="about-box">
             <h1>About Us</h1>
-            <p>Information about the company.</p>
+            <p>Empowering your learning journey.</p>
         </div>
     </section>
 
