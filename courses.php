@@ -45,8 +45,7 @@ try {
     <section class="section-7 container-xl text-center">
         <div>
             <h2>Explore Our Courses</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum <br /> turpis
-                vitae maximus bibendum.</p>
+            <p>Discover a range of courses designed to boost your skills and knowledge. Whether you're looking to enhance your career, learn something new, or deepen your expertise, our courses provide the tools to help you succeed.</p>
         </div>
         <div class="courses">
             <aside>
