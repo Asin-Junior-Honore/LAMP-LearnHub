@@ -112,17 +112,14 @@ try {
             <div class="text-center p-5">
                 <h2>Ready to start learning? Contact us!
                 </h2>
-                <p class="my-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt <br /> velit.
-                    Donec
-                    bibendum
-                    turpis.</p>
+                <p class="my-5">Are you excited to embark on your learning journey? Our team at LearnHub is here to support you every step of the way. Whether you have questions about our courses, need assistance with enrollment, or want to explore personalized learning options, we’re just a message away. </p>
                 <div class="ml-auto text-center">
                     <ul class="navbar-nav justify-content-center flex-row align-items-center">
                         <li class="nav-item signupbtn">
-                            <a class="nav-link text-secondary" href="#">Sign Up</a>
+                            <a class="nav-link" href="#">Sign Up</a>
                         </li>
                         <li class="nav-item signupbtn ml-5">
-                            <a class="nav-link text-secondary" href="#">Sign Up</a>
+                            <a class="nav-link" href="#">Sign Up</a>
                         </li>
                     </ul>
                 </div>

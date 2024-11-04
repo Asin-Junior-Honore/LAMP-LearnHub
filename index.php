@@ -350,10 +350,10 @@
             <div class="ml-auto text-center">
                 <ul class="navbar-nav justify-content-center flex-row align-items-center">
                     <li class="nav-item signupbtn">
-                        <a class="nav-link text-secondary" href="#">Sign Up</a>
+                        <a class="nav-link" href="#">Sign Up</a>
                     </li>
                     <li class="nav-item signupbtn ml-5">
-                        <a class="nav-link text-secondary" href="#">Sign Up</a>
+                        <a class="nav-link" href="#">Sign Up</a>
                     </li>
                 </ul>
             </div>
