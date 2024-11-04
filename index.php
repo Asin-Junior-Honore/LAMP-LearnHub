@@ -103,10 +103,9 @@
     </section>
 
     <section class="section-4 py-5">
-        <div class="text-center mb-5">
+        <div class=" mb-5">
             <h2>Browse By Category</h2>
-            <p>Integer suscipit justo vel iaculis scelerisque. Nam vel porta augue. Proin egestas leo magna, vel <br />
-                tincidunt magna laoreet eu.</p>
+            <p>Explore our diverse range of categories tailored to enhance your learning experience. Whether you're interested in creative writing, web design, coding, or business strategies, we have something for everyone.</p>
         </div>
         <div class="container">
             <div class="row">
