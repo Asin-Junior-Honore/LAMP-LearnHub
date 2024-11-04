@@ -33,52 +33,55 @@ if (isset($_SESSION['user_id'])) {
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
-            <h2>LearnHub</h2>
-            <!-- <img src="path/to/logo.png" width="30" height="30" alt="Logo"> -->
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.php">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.php">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="courses.php">Courses</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.php">Contact</a>
-                </li>
-            </ul>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h2>LearnHub</h2>
+                <!-- <img src="path/to/logo.png" width="30" height="30" alt="Logo"> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="views/about.php">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="views/courses.php">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="views/contact.php">Contact</a>
+                    </li>
+                </ul>
 
-            <div>
-                <?php if ($is_logged_in) : ?>
-                    <div class="d-flex">
-                        <h3 class="mr-3 mb-0">👋 Hi, <?php echo $user_name; ?></h3>
-                        <a href="../logout.php" class="btn btn-primary">Logout</a>
-                    </div>
-                <?php else : ?>
-                    <div class="ml-auto">
-                        <ul class="navbar-nav align-items-center">
+                <div class="ml-lg-auto">
+                    <ul class="navbar-nav align-items-center">
+                        <?php if ($is_logged_in) : ?>
+                            <li class="nav-item">
+                                <h3 class="mr-3 mb-0">👋 Hi, <?php echo $user_name; ?></h3>
+                            </li>
+                            <li class="nav-item">
+                                <a href="logout.php" class="btn btn-primary">Logout</a>
+                            </li>
+                        <?php else : ?>
                             <li class="nav-item login">
-                                <a class="nav-link" href="login.php">Login</a>
+                                <a class="nav-link" href="views/login.php">Login</a>
                             </li>
                             <li class="nav-item signupbtn">
-                                <a class="nav-link text-secondary" href="signup.php">Sign Up</a>
+                                <a class="nav-link" href="views/signup.php">Sign Up</a>
                             </li>
-                        </ul>
-                    </div>
-                <?php endif; ?>
+                        <?php endif; ?>
+                    </ul>
+                </div>
             </div>
+
         </div>
-
-
     </nav>
+
 
 
     <section class=" py-5 px-0 d-flex  justify-content-center align-items-end about-1">
@@ -183,8 +186,8 @@ if (isset($_SESSION['user_id'])) {
                 Meet Our Mentors
             </h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum turpis
-                vitae maximus bibendum.</p>
-            <div class="mt-5">
+                vitae <br /> maximus bibendum.</p>
+            <div class="mt-3">
                 <li class="list-inline-item w-100">
                     <a class="btn btn-primary btn-lg" href="#">View More</a>
                 </li>
@@ -281,10 +284,10 @@ if (isset($_SESSION['user_id'])) {
                 <div class="ml-auto text-center">
                     <ul class="navbar-nav justify-content-center flex-row align-items-center">
                         <li class="nav-item signupbtn">
-                            <a class="nav-link text-secondary" href="#">Sign Up</a>
+                            <a class="nav-link" href="#">Sign Up</a>
                         </li>
                         <li class="nav-item signupbtn ml-5">
-                            <a class="nav-link text-secondary" href="#">Sign Up</a>
+                            <a class="nav-link" href="#">Sign Up</a>
                         </li>
                     </ul>
                 </div>

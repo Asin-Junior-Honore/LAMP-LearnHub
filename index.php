@@ -343,7 +343,7 @@
                 <h3 class="mentor-name my-2">Stan McGyver
                 </h3>
                 <small>Mentor</small>
-            </div>
+</div>
             <div class="mentor-details text-center">
                 <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/handsome-cheerful-european-guy-with-thick-bristle-6CHT7KZ-1.png" alt=" ">
                 <h3 class="mentor-name my-2">Stan McGyver

@@ -61,7 +61,7 @@ $user_name = $is_logged_in ? $_SESSION['user_name'] : '';
                                 <a class="nav-link" href="views/login.php">Login</a>
                             </li>
                             <li class="nav-item signupbtn">
-                                <a class="nav-link text-secondary" href="views/signup.php">Sign Up</a>
+                                <a class="nav-link" href="views/signup.php">Sign Up</a>
                             </li>
                         <?php endif; ?>
                     </ul>
