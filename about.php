@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home |🧑‍💻</title>
+    <title>About |🧑‍💻</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css">
@@ -42,17 +42,16 @@
         <aside>
             <div class="intro-text">
                 <h2>This is Our Story</h2>
-                <p>Ut eget mattis lacus, sit amet accumsan erat. Integer suscipit justo vel iaculis scelerisque. Nam vel
-                    porta augue. Proin egestas leo magna, vel tincidunt magna laoreet eu.</p>
+                <p>At LearnHub, our journey began with a passion for education and a commitment to making learning accessible for everyone. We believe in the transformative power of knowledge and strive to create a platform that empowers learners to achieve their goals.</p>
             </div>
             <div class="features">
                 <span>
                     <h3>Our Vision</h3>
-                    <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                    <p>To create a world where quality education is accessible to all, inspiring individuals to unlock their full potential and pursue lifelong learning.</p>
                 </span>
                 <span>
                     <h3>Our Mission</h3>
-                    <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                    <p>Our mission is to provide innovative and engaging online courses that cater to diverse learning needs, fostering an inclusive community of learners who are equipped for success.</p>
                 </span>
             </div>
             <div class="mt-5">
@@ -68,30 +67,32 @@
     </section>
 
 
+
     <section class="section-6 container-xl">
         <aside>
             <div class="features-grid">
-                <div class="feature-box">
-                    <span class="icon">icon</span>
+                <div class="feature-box text-center">
+                    <span class="icon"><i class="fas fa-chalkboard-teacher"></i></span>
                     <h3>Expert Tutor</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum tortor aliquam nisl.</p>
+                    <p>Learn from experienced instructors who are passionate about teaching and dedicated to your success.</p>
                 </div>
-                <div class="feature-box">
-                    <span class="icon">icon</span>
+                <div class="feature-box text-center">
+                    <span class="icon"><i class="fas fa-infinity"></i></span>
                     <h3>Lifetime Access</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum tortor aliquam nisl.</p>
+                    <p>Enjoy lifetime access to all course materials, allowing you to revisit and refresh your knowledge whenever you need.</p>
                 </div>
-                <div class="feature-box">
-                    <span class="icon">icon</span>
+                <div class="feature-box text-center">
+                    <span class="icon"><i class="fas fa-calendar-week"></i></span>
                     <h3>Weekly Event</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum tortor aliquam nisl.</p>
+                    <p>Participate in weekly events, including live Q&A sessions and workshops, to deepen your understanding and connect with fellow learners.</p>
                 </div>
-                <div class="feature-box">
-                    <span class="icon">icon</span>
+                <div class="feature-box text-center">
+                    <span class="icon"><i class="fas fa-book-open"></i></span>
                     <h3>Updated Material</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In interdum tortor aliquam nisl.</p>
+                    <p>Stay ahead with regularly updated course content that reflects the latest trends and developments in your field.</p>
                 </div>
             </div>
+
             <div class="mt-5">
                 <li class="list-inline-item w-100">
                     <a class="btn btn-primary btn-lg" href="#">Get Started</a>
@@ -102,11 +103,7 @@
         <aside class="description mt-5 mt-lg-0">
             <div>
                 <h2>Making Your Learning More Enjoyable</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum
-                    turpis
-                    vitae maximus bibendum. Mauris aliquam sapien eget ipsum dictum, eget euismod nisl consequat.
-                    Maecenas
-                    mattis, dui condimentum aliquet eleifend, enim nulla pharetra nunc.</p>
+                <p>At LearnHub, we believe that learning should be an enjoyable experience. Our interactive courses and engaging content are designed to keep you motivated and inspired as you explore new subjects. With a focus on practical applications, you'll find yourself applying your knowledge in real-world situations while having fun along the way.</p>
             </div>
             <div class="ladyimg">
                 <img src="https://askproject.net/studdy/wp-content/uploads/sites/43/2021/12/horizontal-shot-of-pleasant-looking-cheerful-europ-H6BTHYD-1.png" alt="" class="w-100 h-100">
@@ -119,9 +116,8 @@
             <h2>
                 Meet Our Mentors
             </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum turpis
-                vitae <br /> maximus bibendum.</p>
-            <div class="mt-3">
+            <p>Our mentors are industry leaders with a wealth of knowledge and experience. Each mentor brings unique insights and perspectives, ensuring you receive guidance tailored to your learning journey. From seasoned professionals to innovative thinkers, our team is dedicated to helping you achieve your goals</p>
+            <div class="mt-5">
                 <li class="list-inline-item w-100">
                     <a class="btn btn-primary btn-lg" href="#">View More</a>
                 </li>
@@ -157,33 +153,35 @@
     </section>
 
     <section class="section-9-about container-xl contact-form d-flex justify-content-between align-items-start">
+
         <aside class="contact-details">
             <h2>Get In Touch</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt velit. Donec bibendum turpis vitae maximus.</p>
+            <p>At LearnHub, we value open communication. Reach out to us with any questions or feedback. We're here to help!</p>
             <div class="contact-info">
                 <div class="d-flex align-items-center flex-column">
-                    <span class="contact-icon mr-3">icon</span>
+                    <span class="contact-icon mr-3"><i class="fas fa-map-marker-alt"></i></span>
                     <div>
-                        <h4>Address</h4>
+                        <h5>Address</h5>
                         <small>732 Despard St, Atlanta, Georgia 30060</small>
                     </div>
                 </div>
                 <div class="d-flex align-items-center flex-column">
-                    <span class="contact-icon mr-3">icon</span>
+                    <span class="contact-icon mr-3"><i class="fas fa-envelope"></i></span>
                     <div>
-                        <h4>Email</h4>
-                        <small>732 Despard St, Atlanta, Georgia 30060</small>
+                        <h5>Email</h5>
+                        <small>info@learnhub.com</small>
                     </div>
                 </div>
                 <div class="d-flex align-items-center flex-column">
-                    <span class="contact-icon mr-3">icon</span>
+                    <span class="contact-icon mr-3"><i class="fas fa-phone"></i></span>
                     <div>
-                        <h4>Phone</h4>
-                        <small>732 Despard St, Atlanta, Georgia 30060</small>
+                        <h5>Phone</h5>
+                        <small>(+234) 9111-812-9406</small>
                     </div>
                 </div>
             </div>
         </aside>
+
 
         <form action="" class="contact-form w-50">
             <div class="form-group d-flex">
@@ -211,10 +209,7 @@
             <div class="text-center p-5">
                 <h2>Ready to start learning? Contact us!
                 </h2>
-                <p class="my-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed tincidunt <br /> velit.
-                    Donec
-                    bibendum
-                    turpis.</p>
+                <p class="my-5">Are you excited to embark on your learning journey? Our team at LearnHub is here to support you every step of the way. Whether you have questions about our courses, need assistance with enrollment, or want to explore personalized learning options, we’re just a message away. </p>
                 <div class="ml-auto text-center">
                     <ul class="navbar-nav justify-content-center flex-row align-items-center">
                         <li class="nav-item signupbtn">

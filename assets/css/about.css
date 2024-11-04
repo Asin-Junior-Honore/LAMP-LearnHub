@@ -61,6 +61,7 @@
 
 .contact-icon {
   color: #007bff;
+  font-size: 30px;
 }
 .contact-info {
   display: flex;
@@ -94,7 +95,7 @@
   border-radius: 0;
 }
 
-textarea {
+form textarea {
   resize: none;
 }
 
@@ -108,7 +109,8 @@ textarea {
     flex-direction: column;
     gap: 40px;
   }
-  .mentor-details img, .students-details img {
+  .mentor-details img,
+  .students-details img {
     width: 100%;
   }
   .contact-info {
@@ -117,7 +119,7 @@ textarea {
   .contact-details {
     max-width: 100%;
   }
-  .contact-form .w-50{
+  .contact-form .w-50 {
     width: 100% !important;
   }
 }
