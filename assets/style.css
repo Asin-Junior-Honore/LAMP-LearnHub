@@ -168,7 +168,6 @@ h3,
 }
 
 .section-4 p {
-  font-size: 1.1rem;
   color: #666;
 }
 
@@ -192,7 +191,6 @@ h3,
 }
 
 .category-box p {
-  font-size: 1rem;
   color: #666;
 }
 .category-box span {
@@ -282,7 +280,6 @@ h3,
 }
 
 .section-5 .features p {
-  font-size: 1rem;
   color: #666;
 }
 
@@ -308,7 +305,6 @@ h3,
 /* Section-6 Styles */
 .section-6 {
   display: flex;
-  align-items: center;
   column-gap: 35px;
   justify-content: space-between;
 }
@@ -328,7 +324,7 @@ h3,
   flex-direction: column;
   align-items: center;
   background-color: #f8f9fa;
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 0.5rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
@@ -340,7 +336,7 @@ h3,
 
 .feature-box .icon {
   color: #5e72e4;
-  font-size: 35px;
+  font-size: 30px;
   margin-bottom: 1rem;
 }
 
@@ -353,7 +349,6 @@ h3,
 }
 
 .feature-box p {
-  font-size: 1rem;
   color: #666;
   text-align: center;
 }
@@ -375,9 +370,8 @@ h3,
 }
 
 .description p {
-  font-size: 1.1rem;
   color: #666;
-  margin-block: 2rem;
+  margin-block: 4rem;
 }
 
 .description img {
@@ -408,7 +402,6 @@ h3,
 }
 
 .section-7 p {
-  font-size: 1em;
   margin-bottom: 20px;
 }
 
@@ -448,7 +441,6 @@ h3,
 }
 
 .courses aside p {
-  font-size: 0.9em;
   margin-bottom: 10px;
 }
 
@@ -515,10 +507,7 @@ footer .social-icons a {
   .image-div h3 {
     font-size: 1.5rem;
   }
-  p.lead,
-  .lead {
-    font-size: 18px;
-  }
+
   .hero-image-container::before {
     top: 40px;
   }
