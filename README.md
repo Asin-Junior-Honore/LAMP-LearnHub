@@ -43,11 +43,10 @@ To run this project locally, you'll need:
 ### Installation
 
 1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/your-username/learnhub.git
-   cd learnhub
-   ```
+    ```bash
+    git clone https://github.com/your-username/LAMP-LearnHub.git
+    cd learnhub
+    ```
 
 2. **Set Up the Database**:
 
@@ -55,7 +54,7 @@ To run this project locally, you'll need:
    - Configure database credentials in `db.php` or similar setup file.
 
 3. **Start the Server**:
-   - Run your local server and access the application from `localhost/learnhub`.
+   - Run your local server and access the application from `localhost/LAMP-LearnHub`.
 
 ## Database Structure
 
