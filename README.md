@@ -35,6 +35,7 @@ LearnHub is a web-based learning platform where users can explore a wide range o
 ### Prerequisites
 
 To run this project locally, you'll need:
+
 - PHP (>=7.0)
 - MySQL
 - A local server setup (e.g., XAMPP, MAMP, or WAMP)
@@ -42,14 +43,16 @@ To run this project locally, you'll need:
 ### Installation
 
 1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/your-username/learnhub.git
-    cd learnhub
-    ```
+
+   ```bash
+   git clone https://github.com/your-username/learnhub.git
+   cd learnhub
+   ```
 
 2. **Set Up the Database**:
-    - Import the provided SQL code (see below) to create the necessary tables.
-    - Configure database credentials in `db.php` or similar setup file.
+
+   - Import the provided SQL code (see below) to create the necessary tables.
+   - Configure database credentials in `db.php` or similar setup file.
 
 3. **Start the Server**:
    - Run your local server and access the application from `localhost/learnhub`.
@@ -58,7 +61,7 @@ To run this project locally, you'll need:
 
 ### Users Table
 
-The `users` table stores user information for authentication and profile details. 
+The `users` table stores user information for authentication and profile details.
 
 ```sql
 CREATE TABLE users (
@@ -109,6 +112,7 @@ The application deployed link [Learnhub](http://lamp-learnhub.ct.ws/).
 ## Contributing
 
 If you would like to contribute:
+
 1. Fork the repository.
 2. Create a new branch for your feature or fix.
 3. Submit a pull request.
