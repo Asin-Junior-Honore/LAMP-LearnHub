@@ -1,5 +1,3 @@
----
-
 # LearnHub
 
 LearnHub is a web-based learning platform where users can explore a wide range of courses. The application is built using the LAMP stack, leveraging **Linux (InfinityFree hosting), Apache, MySQL, and PHP** for backend functionality. For styling, I used HTML and Bootstrap to ensure a user-friendly and responsive interface. LearnHub is deployed on [InfinityFree](https://www.infinityfree.net/), with open access to the index page for both authenticated and unauthenticated users.
@@ -114,5 +112,3 @@ If you would like to contribute:
 1. Fork the repository.
 2. Create a new branch for your feature or fix.
 3. Submit a pull request.
-
----
